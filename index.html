@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="ko" class="scroll-smooth"><head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -608,7 +608,7 @@
           <span>BANDO E&amp;C BRAND FILM · 반도건설 공식 홍보 영상</span>
         </div>
         <h2 class="text-2xl sm:text-4xl font-black text-white tracking-tight">
-          계양신도시 첫 라이프 스테이 몰 <span class="text-sigan-gold">「시간 (時間)」</span>
+          계양신도시 첫 라이프 스테이 몰<br class="sm:hidden"> <span class="text-sigan-gold">「시간 (時間)」</span>
         </h2>
         <div class="w-14 h-1 bg-sigan-gold mx-auto mt-3"></div>
         <p class="text-slate-300 text-xs sm:text-base mt-3 leading-relaxed break-keep">
@@ -908,7 +908,7 @@
           <div>
             <div class="flex items-center space-x-2">
               <span class="px-2.5 py-1 rounded-md bg-emerald-100 text-sigan-green font-extrabold text-xs">OFFICIAL LOCATION MAP</span>
-              <h3 class="text-base sm:text-xl font-black text-slate-900" data-editable="" contenteditable="false" spellcheck="false">인천계양 상업시설 「시간」 공식 광역 입지도</h3>
+              <h3 class="text-base sm:text-xl font-black text-slate-900" data-editable="" contenteditable="false" spellcheck="false">인천계양 상업시설 「시간」<br class="sm:hidden"> 공식 광역 입지도</h3>
             </div>
             <p class="text-xs text-slate-600 mt-1">
               인천1호선 박촌역, 대장~홍대선 연장(추진), S-BRT, 경명대로·벌말로 확장 등 3기 신도시 사통팔달 쾌속 교통망
@@ -1309,46 +1309,6 @@
 
       <!-- 블록 갤러리 컨테이너 -->
       <div id="gallery-blocks" class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-6"><div class="user-image-card relative rounded-2xl sm:rounded-3xl overflow-hidden border border-slate-200/90 shadow-md bg-white transition hover:shadow-lg col-span-1">
-        <!-- 상단 컨트롤 툴바 -->
-        <div class="bg-slate-900 text-white px-4 py-2.5 flex flex-wrap items-center justify-between gap-2 border-b border-slate-800">
-          <div class="flex items-center space-x-2">
-            <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
-              도면 · 배치도
-            </span>
-            <span class="text-xs font-semibold text-slate-200 truncate max-w-[220px]" data-editable="" contenteditable="false" spellcheck="false">3BL 1층 평면</span>
-          </div>
-          <div class="flex items-center gap-1.5 text-xs">
-            <button onclick="toggleCardWidth(this)" title="너비 전환 (가로 100% 꽉 채우기 / 2열 절반)" class="px-2.5 py-1 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold flex items-center transition shadow-sm">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="minimize-2" aria-hidden="true" class="lucide lucide-minimize-2 w-3.5 h-3.5 mr-1"><path d="m14 10 7-7"></path><path d="M20 10h-6V4"></path><path d="m3 21 7-7"></path><path d="M4 14h6v6"></path></svg>
-              <span class="btn-width-label">2열 절반</span>
-            </button>
-            <button onclick="toggleCardControls(this)" title="사이즈 &amp; 높이 자유 슬라이더 조절" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold flex items-center border border-slate-700 transition">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sliders" aria-hidden="true" class="lucide lucide-sliders w-3.5 h-3.5 mr-1 text-emerald-400"><path d="M10 8h4"></path><path d="M12 21v-9"></path><path d="M12 8V3"></path><path d="M17 16h4"></path><path d="M19 12V3"></path><path d="M19 21v-5"></path><path d="M3 14h4"></path><path d="M5 10V3"></path><path d="M5 21v-7"></path></svg>
-              <span>크기 조절</span>
-            </button>
-            <button onclick="openImageLightbox(this)" title="큰 화면으로 보기 (확대)" class="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 transition">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="zoom-in" aria-hidden="true" class="lucide lucide-zoom-in w-3.5 h-3.5 text-emerald-300"><circle cx="11" cy="11" r="8"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line><line x1="11" x2="11" y1="8" y2="14"></line><line x1="8" x2="14" y1="11" y2="11"></line></svg>
-            </button>
-            <button onclick="deleteCardImage(this)" title="삭제" class="p-1.5 rounded-lg bg-rose-900/60 hover:bg-rose-800 text-rose-200 transition">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="trash-2" aria-hidden="true" class="lucide lucide-trash-2 w-3.5 h-3.5"><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path><path d="M3 6h18"></path><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
-            </button>
-          </div>
-        </div>
-
-        <!-- 슬라이더 미세 조절 패널 (토글) -->
-        <div class="card-controls-panel hidden bg-slate-100 p-3.5 border-b border-slate-200 text-xs space-y-2.5 transition">
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <div class="flex items-center space-x-2">
-              <span class="font-bold text-slate-700 shrink-0">가로 너비:</span>
-              <input type="range" min="30" max="100" value="100" class="w-full accent-emerald-600 cursor-pointer" oninput="adjustImgCardWidth(this, this.value)">
-              <span class="card-width-val font-bold text-emerald-700 shrink-0">100%</span>
-            </div>
-            <div class="flex items-center space-x-2">
-              <span class="font-bold text-slate-700 shrink-0">최대 높이:</span>
-              <input type="range" min="300" max="1400" step="50" value="850" class="w-full accent-emerald-600 cursor-pointer" oninput="adjustImgCardHeight(this, this.value)">
-              <span class="card-height-val font-bold text-emerald-700 shrink-0">850px</span>
-            </div>
-          </div>
           <div class="flex items-center gap-1.5 pt-1">
             <span class="font-bold text-slate-700 mr-1">화면 맞춤 방식:</span>
             <button onclick="setImgFit(this, 'contain')" class="px-2.5 py-1 bg-white border border-slate-300 rounded-lg text-slate-700 hover:bg-slate-50 font-bold active-fit">원본 비율 유지 (도면 잘림 없음)</button>
@@ -1373,46 +1333,6 @@
           </span>
         </div>
       </div><div class="user-image-card relative rounded-2xl sm:rounded-3xl overflow-hidden border border-slate-200/90 shadow-md bg-white transition hover:shadow-lg col-span-1">
-        <!-- 상단 컨트롤 툴바 -->
-        <div class="bg-slate-900 text-white px-4 py-2.5 flex flex-wrap items-center justify-between gap-2 border-b border-slate-800">
-          <div class="flex items-center space-x-2">
-            <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
-              도면 · 배치도
-            </span>
-            <span class="text-xs font-semibold text-slate-200 truncate max-w-[220px]" data-editable="" contenteditable="false" spellcheck="false">3BL 2층 평면</span>
-          </div>
-          <div class="flex items-center gap-1.5 text-xs">
-            <button onclick="toggleCardWidth(this)" title="너비 전환 (가로 100% 꽉 채우기 / 2열 절반)" class="px-2.5 py-1 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold flex items-center transition shadow-sm">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="minimize-2" aria-hidden="true" class="lucide lucide-minimize-2 w-3.5 h-3.5 mr-1"><path d="m14 10 7-7"></path><path d="M20 10h-6V4"></path><path d="m3 21 7-7"></path><path d="M4 14h6v6"></path></svg>
-              <span class="btn-width-label">2열 절반</span>
-            </button>
-            <button onclick="toggleCardControls(this)" title="사이즈 &amp; 높이 자유 슬라이더 조절" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold flex items-center border border-slate-700 transition">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sliders" aria-hidden="true" class="lucide lucide-sliders w-3.5 h-3.5 mr-1 text-emerald-400"><path d="M10 8h4"></path><path d="M12 21v-9"></path><path d="M12 8V3"></path><path d="M17 16h4"></path><path d="M19 12V3"></path><path d="M19 21v-5"></path><path d="M3 14h4"></path><path d="M5 10V3"></path><path d="M5 21v-7"></path></svg>
-              <span>크기 조절</span>
-            </button>
-            <button onclick="openImageLightbox(this)" title="큰 화면으로 보기 (확대)" class="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 transition">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="zoom-in" aria-hidden="true" class="lucide lucide-zoom-in w-3.5 h-3.5 text-emerald-300"><circle cx="11" cy="11" r="8"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line><line x1="11" x2="11" y1="8" y2="14"></line><line x1="8" x2="14" y1="11" y2="11"></line></svg>
-            </button>
-            <button onclick="deleteCardImage(this)" title="삭제" class="p-1.5 rounded-lg bg-rose-900/60 hover:bg-rose-800 text-rose-200 transition">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="trash-2" aria-hidden="true" class="lucide lucide-trash-2 w-3.5 h-3.5"><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path><path d="M3 6h18"></path><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
-            </button>
-          </div>
-        </div>
-
-        <!-- 슬라이더 미세 조절 패널 (토글) -->
-        <div class="card-controls-panel hidden bg-slate-100 p-3.5 border-b border-slate-200 text-xs space-y-2.5 transition">
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <div class="flex items-center space-x-2">
-              <span class="font-bold text-slate-700 shrink-0">가로 너비:</span>
-              <input type="range" min="30" max="100" value="100" class="w-full accent-emerald-600 cursor-pointer" oninput="adjustImgCardWidth(this, this.value)">
-              <span class="card-width-val font-bold text-emerald-700 shrink-0">100%</span>
-            </div>
-            <div class="flex items-center space-x-2">
-              <span class="font-bold text-slate-700 shrink-0">최대 높이:</span>
-              <input type="range" min="300" max="1400" step="50" value="850" class="w-full accent-emerald-600 cursor-pointer" oninput="adjustImgCardHeight(this, this.value)">
-              <span class="card-height-val font-bold text-emerald-700 shrink-0">850px</span>
-            </div>
-          </div>
           <div class="flex items-center gap-1.5 pt-1">
             <span class="font-bold text-slate-700 mr-1">화면 맞춤 방식:</span>
             <button onclick="setImgFit(this, 'contain')" class="px-2.5 py-1 bg-white border border-slate-300 rounded-lg text-slate-700 hover:bg-slate-50 font-bold active-fit">원본 비율 유지 (도면 잘림 없음)</button>
@@ -1437,46 +1357,6 @@
           </span>
         </div>
       </div><div class="user-image-card relative rounded-2xl sm:rounded-3xl overflow-hidden border border-slate-200/90 shadow-md bg-white transition hover:shadow-lg col-span-1">
-        <!-- 상단 컨트롤 툴바 -->
-        <div class="bg-slate-900 text-white px-4 py-2.5 flex flex-wrap items-center justify-between gap-2 border-b border-slate-800">
-          <div class="flex items-center space-x-2">
-            <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
-              도면 · 배치도
-            </span>
-            <span class="text-xs font-semibold text-slate-200 truncate max-w-[220px]" data-editable="" contenteditable="false" spellcheck="false">4BL 1층</span>
-          </div>
-          <div class="flex items-center gap-1.5 text-xs">
-            <button onclick="toggleCardWidth(this)" title="너비 전환 (가로 100% 꽉 채우기 / 2열 절반)" class="px-2.5 py-1 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold flex items-center transition shadow-sm">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="minimize-2" aria-hidden="true" class="lucide lucide-minimize-2 w-3.5 h-3.5 mr-1"><path d="m14 10 7-7"></path><path d="M20 10h-6V4"></path><path d="m3 21 7-7"></path><path d="M4 14h6v6"></path></svg>
-              <span class="btn-width-label">2열 절반</span>
-            </button>
-            <button onclick="toggleCardControls(this)" title="사이즈 &amp; 높이 자유 슬라이더 조절" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold flex items-center border border-slate-700 transition">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sliders" aria-hidden="true" class="lucide lucide-sliders w-3.5 h-3.5 mr-1 text-emerald-400"><path d="M10 8h4"></path><path d="M12 21v-9"></path><path d="M12 8V3"></path><path d="M17 16h4"></path><path d="M19 12V3"></path><path d="M19 21v-5"></path><path d="M3 14h4"></path><path d="M5 10V3"></path><path d="M5 21v-7"></path></svg>
-              <span>크기 조절</span>
-            </button>
-            <button onclick="openImageLightbox(this)" title="큰 화면으로 보기 (확대)" class="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 transition">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="zoom-in" aria-hidden="true" class="lucide lucide-zoom-in w-3.5 h-3.5 text-emerald-300"><circle cx="11" cy="11" r="8"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line><line x1="11" x2="11" y1="8" y2="14"></line><line x1="8" x2="14" y1="11" y2="11"></line></svg>
-            </button>
-            <button onclick="deleteCardImage(this)" title="삭제" class="p-1.5 rounded-lg bg-rose-900/60 hover:bg-rose-800 text-rose-200 transition">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="trash-2" aria-hidden="true" class="lucide lucide-trash-2 w-3.5 h-3.5"><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path><path d="M3 6h18"></path><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
-            </button>
-          </div>
-        </div>
-
-        <!-- 슬라이더 미세 조절 패널 (토글) -->
-        <div class="card-controls-panel hidden bg-slate-100 p-3.5 border-b border-slate-200 text-xs space-y-2.5 transition">
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <div class="flex items-center space-x-2">
-              <span class="font-bold text-slate-700 shrink-0">가로 너비:</span>
-              <input type="range" min="30" max="100" value="100" class="w-full accent-emerald-600 cursor-pointer" oninput="adjustImgCardWidth(this, this.value)">
-              <span class="card-width-val font-bold text-emerald-700 shrink-0">100%</span>
-            </div>
-            <div class="flex items-center space-x-2">
-              <span class="font-bold text-slate-700 shrink-0">최대 높이:</span>
-              <input type="range" min="300" max="1400" step="50" value="850" class="w-full accent-emerald-600 cursor-pointer" oninput="adjustImgCardHeight(this, this.value)">
-              <span class="card-height-val font-bold text-emerald-700 shrink-0">850px</span>
-            </div>
-          </div>
           <div class="flex items-center gap-1.5 pt-1">
             <span class="font-bold text-slate-700 mr-1">화면 맞춤 방식:</span>
             <button onclick="setImgFit(this, 'contain')" class="px-2.5 py-1 bg-white border border-slate-300 rounded-lg text-slate-700 hover:bg-slate-50 font-bold active-fit">원본 비율 유지 (도면 잘림 없음)</button>
@@ -1501,46 +1381,6 @@
           </span>
         </div>
       </div><div class="user-image-card relative rounded-2xl sm:rounded-3xl overflow-hidden border border-slate-200/90 shadow-md bg-white transition hover:shadow-lg col-span-1">
-        <!-- 상단 컨트롤 툴바 -->
-        <div class="bg-slate-900 text-white px-4 py-2.5 flex flex-wrap items-center justify-between gap-2 border-b border-slate-800">
-          <div class="flex items-center space-x-2">
-            <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
-              도면 · 배치도
-            </span>
-            <span class="text-xs font-semibold text-slate-200 truncate max-w-[220px]" data-editable="" contenteditable="false" spellcheck="false">4BL 2층</span>
-          </div>
-          <div class="flex items-center gap-1.5 text-xs">
-            <button onclick="toggleCardWidth(this)" title="너비 전환 (가로 100% 꽉 채우기 / 2열 절반)" class="px-2.5 py-1 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-bold flex items-center transition shadow-sm">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="minimize-2" aria-hidden="true" class="lucide lucide-minimize-2 w-3.5 h-3.5 mr-1"><path d="m14 10 7-7"></path><path d="M20 10h-6V4"></path><path d="m3 21 7-7"></path><path d="M4 14h6v6"></path></svg>
-              <span class="btn-width-label">2열 절반</span>
-            </button>
-            <button onclick="toggleCardControls(this)" title="사이즈 &amp; 높이 자유 슬라이더 조절" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold flex items-center border border-slate-700 transition">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="sliders" aria-hidden="true" class="lucide lucide-sliders w-3.5 h-3.5 mr-1 text-emerald-400"><path d="M10 8h4"></path><path d="M12 21v-9"></path><path d="M12 8V3"></path><path d="M17 16h4"></path><path d="M19 12V3"></path><path d="M19 21v-5"></path><path d="M3 14h4"></path><path d="M5 10V3"></path><path d="M5 21v-7"></path></svg>
-              <span>크기 조절</span>
-            </button>
-            <button onclick="openImageLightbox(this)" title="큰 화면으로 보기 (확대)" class="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 transition">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="zoom-in" aria-hidden="true" class="lucide lucide-zoom-in w-3.5 h-3.5 text-emerald-300"><circle cx="11" cy="11" r="8"></circle><line x1="21" x2="16.65" y1="21" y2="16.65"></line><line x1="11" x2="11" y1="8" y2="14"></line><line x1="8" x2="14" y1="11" y2="11"></line></svg>
-            </button>
-            <button onclick="deleteCardImage(this)" title="삭제" class="p-1.5 rounded-lg bg-rose-900/60 hover:bg-rose-800 text-rose-200 transition">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="trash-2" aria-hidden="true" class="lucide lucide-trash-2 w-3.5 h-3.5"><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6"></path><path d="M3 6h18"></path><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
-            </button>
-          </div>
-        </div>
-
-        <!-- 슬라이더 미세 조절 패널 (토글) -->
-        <div class="card-controls-panel hidden bg-slate-100 p-3.5 border-b border-slate-200 text-xs space-y-2.5 transition">
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <div class="flex items-center space-x-2">
-              <span class="font-bold text-slate-700 shrink-0">가로 너비:</span>
-              <input type="range" min="30" max="100" value="100" class="w-full accent-emerald-600 cursor-pointer" oninput="adjustImgCardWidth(this, this.value)">
-              <span class="card-width-val font-bold text-emerald-700 shrink-0">100%</span>
-            </div>
-            <div class="flex items-center space-x-2">
-              <span class="font-bold text-slate-700 shrink-0">최대 높이:</span>
-              <input type="range" min="300" max="1400" step="50" value="850" class="w-full accent-emerald-600 cursor-pointer" oninput="adjustImgCardHeight(this, this.value)">
-              <span class="card-height-val font-bold text-emerald-700 shrink-0">850px</span>
-            </div>
-          </div>
           <div class="flex items-center gap-1.5 pt-1">
             <span class="font-bold text-slate-700 mr-1">화면 맞춤 방식:</span>
             <button onclick="setImgFit(this, 'contain')" class="px-2.5 py-1 bg-white border border-slate-300 rounded-lg text-slate-700 hover:bg-slate-50 font-bold active-fit">원본 비율 유지 (도면 잘림 없음)</button>
@@ -1636,8 +1476,7 @@
             <div class="p-4 bg-sigan-cream rounded-2xl border border-slate-200">
               <span class="text-xs font-bold text-sigan-green block mb-1">■ 견본주택 (모델하우스)</span>
               <p class="font-bold text-slate-900 text-xs sm:text-sm" data-editable="" contenteditable="false" spellcheck="false">경기도 부천시 원미구 도당동 222-46</p>
-              <p class="text-xs text-slate-500 mt-1" data-editable="" contenteditable="false" spellcheck="false">※ 공식 홍보관: 서울특별시 양천구 신월동 537-1 외</p>
-              <p class="text-xs text-emerald-700 mt-0.5 font-semibold" data-editable="" contenteditable="false" spellcheck="false">※ 주차 완비 (방문 예약 고객 전용 주차권 증정)</p>
+                            <p class="text-xs text-emerald-700 mt-0.5 font-semibold" data-editable="" contenteditable="false" spellcheck="false">※ 주차 완비 (방문 예약 고객 전용 주차권 증정)</p>
             </div>
 
             <div class="p-4 bg-slate-50 rounded-2xl border border-slate-200">
@@ -1756,7 +1595,7 @@
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 leading-relaxed text-xs">
         <div class="space-y-1">
           <p><span class="text-slate-300 font-semibold">시공사:</span> <span data-editable="" contenteditable="false" spellcheck="false">(주)반도건설</span> | <span class="text-slate-300 font-semibold">브랜드:</span> <span data-editable="" contenteditable="false" spellcheck="false">시간(時間) / 카이브(KAIVE)·유보라</span></p>
-          <p><span class="text-slate-300 font-semibold">견본주택 위치:</span> <span data-editable="" contenteditable="false" spellcheck="false">경기도 부천시 원미구 도당동 222-46 (홍보관: 서울 양천구 신월동 537-1 외)</span></p>
+          <p><span class="text-slate-300 font-semibold">견본주택 위치:</span> <span data-editable="" contenteditable="false" spellcheck="false">경기도 부천시 원미구 도당동 222-46</span></p>
           <p><span class="text-slate-300 font-semibold">사업지 위치:</span> <span data-editable="" contenteditable="false" spellcheck="false">인천광역시 계양구 동양동 458-3번지(AC3BL) / 동양동 420-3번지(AC4BL) 일원</span></p>
           <p><span class="text-slate-300 font-semibold">대표 분양문의:</span> <span class="text-sigan-gold font-bold">1599-3554</span></p>
         </div>
@@ -2468,46 +2307,6 @@
       const card = document.createElement('div');
       card.className = `user-image-card relative ${isFull ? 'col-span-full' : 'col-span-1'} rounded-2xl sm:rounded-3xl overflow-hidden border border-slate-200/90 shadow-md bg-white transition hover:shadow-lg`;
       card.innerHTML = `
-        <!-- 상단 컨트롤 툴바 -->
-        <div class="bg-slate-900 text-white px-4 py-2.5 flex flex-wrap items-center justify-between gap-2 border-b border-slate-800">
-          <div class="flex items-center space-x-2">
-            <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-bold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
-              도면 · 배치도
-            </span>
-            <span class="text-xs font-semibold text-slate-200 truncate max-w-[220px]" data-editable>${caption}</span>
-          </div>
-          <div class="flex items-center gap-1.5 text-xs">
-            <button onclick="toggleCardWidth(this)" title="너비 전환 (가로 100% 꽉 채우기 / 2열 절반)" class="px-2.5 py-1 rounded-lg ${isFull ? 'bg-emerald-600 hover:bg-emerald-500' : 'bg-slate-700 hover:bg-slate-600'} text-white font-bold flex items-center transition shadow-sm">
-              <i data-lucide="${isFull ? 'minimize-2' : 'maximize-2'}" class="w-3.5 h-3.5 mr-1"></i>
-              <span class="btn-width-label">${isFull ? '가로 100% 꽉 채움' : '2열 절반'}</span>
-            </button>
-            <button onclick="toggleCardControls(this)" title="사이즈 & 높이 자유 슬라이더 조절" class="px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold flex items-center border border-slate-700 transition">
-              <i data-lucide="sliders" class="w-3.5 h-3.5 mr-1 text-emerald-400"></i>
-              <span>크기 조절</span>
-            </button>
-            <button onclick="openImageLightbox(this)" title="큰 화면으로 보기 (확대)" class="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 transition">
-              <i data-lucide="zoom-in" class="w-3.5 h-3.5 text-emerald-300"></i>
-            </button>
-            <button onclick="deleteCardImage(this)" title="삭제" class="p-1.5 rounded-lg bg-rose-900/60 hover:bg-rose-800 text-rose-200 transition">
-              <i data-lucide="trash-2" class="w-3.5 h-3.5"></i>
-            </button>
-          </div>
-        </div>
-
-        <!-- 슬라이더 미세 조절 패널 (토글) -->
-        <div class="card-controls-panel hidden bg-slate-100 p-3.5 border-b border-slate-200 text-xs space-y-2.5 transition">
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-            <div class="flex items-center space-x-2">
-              <span class="font-bold text-slate-700 shrink-0">가로 너비:</span>
-              <input type="range" min="30" max="100" value="100" class="w-full accent-emerald-600 cursor-pointer" oninput="adjustImgCardWidth(this, this.value)">
-              <span class="card-width-val font-bold text-emerald-700 shrink-0">100%</span>
-            </div>
-            <div class="flex items-center space-x-2">
-              <span class="font-bold text-slate-700 shrink-0">최대 높이:</span>
-              <input type="range" min="300" max="1400" step="50" value="850" class="w-full accent-emerald-600 cursor-pointer" oninput="adjustImgCardHeight(this, this.value)">
-              <span class="card-height-val font-bold text-emerald-700 shrink-0">850px</span>
-            </div>
-          </div>
           <div class="flex items-center gap-1.5 pt-1">
             <span class="font-bold text-slate-700 mr-1">화면 맞춤 방식:</span>
             <button onclick="setImgFit(this, 'contain')" class="px-2.5 py-1 bg-white border border-slate-300 rounded-lg text-slate-700 hover:bg-slate-50 font-bold active-fit">원본 비율 유지 (도면 잘림 없음)</button>
