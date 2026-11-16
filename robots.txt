@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gy-sigan-pi.vercel.app/sitemap.xml
