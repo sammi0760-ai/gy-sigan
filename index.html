@@ -121,12 +121,7 @@
       box-shadow: 0 0 25px rgba(16, 185, 129, 0.5) !important;
     }
     
-    .add-image-box {
-      display: none;
-    }
-    body.is-editing .add-image-box {
-      display: flex;
-    }
+
 
     /* 아이폰/스마트폰 목업 */
     .mockup-phone {
@@ -934,12 +929,7 @@
           </div>
         </div>
       </div>
-
-      <div class="add-image-box mt-6 border-2 border-dashed border-emerald-400 bg-emerald-50/70 rounded-2xl p-6 text-center flex flex-col items-center justify-center cursor-pointer hover:bg-emerald-100/70 transition" onclick="openAddImageModal('gallery-premium')">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="image-plus" aria-hidden="true" class="lucide lucide-image-plus w-8 h-8 text-emerald-600 mb-2"><path d="M16 5h6"></path><path d="M19 2v6"></path><path d="M21 11.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7.5"></path><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path><circle cx="9" cy="9" r="2"></circle></svg>
-        <span class="text-sm font-bold text-emerald-900">이곳에 프리미엄 관련 이미지 추가하기</span>
-      </div>
-      <div id="gallery-premium" class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6"></div>
+      
 
     </div>
   </section>
@@ -1076,15 +1066,8 @@
         </div>
       </div>
 
-      <!-- Wix 사진 추가 박스 -->
-      <div class="add-image-box mt-6 border-2 border-dashed border-emerald-400 bg-emerald-50/70 rounded-2xl p-6 text-center flex flex-col items-center justify-center cursor-pointer hover:bg-emerald-100/70 transition" onclick="openAddImageModal('gallery-overview')">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="image-plus" aria-hidden="true" class="lucide lucide-image-plus w-8 h-8 text-emerald-600 mb-2"><path d="M16 5h6"></path><path d="M19 2v6"></path><path d="M21 11.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7.5"></path><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path><circle cx="9" cy="9" r="2"></circle></svg>
-        <span class="text-sm font-bold text-emerald-900">이곳에 새 조감도 / 현장 사진 추가하기</span>
-        <span class="text-xs text-emerald-700 mt-0.5">클릭하면 내 컴퓨터에서 사진을 선택하여 갤러리에 추가됩니다. (Wix 편집 모드 전용)</span>
-      </div>
-
       <!-- 개요 갤러리 컨테이너 -->
-      <div id="gallery-overview" class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6"></div>
+      
 
     </div>
   </section>
@@ -1322,13 +1305,6 @@
             2열 나란히 보기
           </button>
         </div>
-      </div>
-
-      <!-- Wix 사진 추가 박스 -->
-      <div class="add-image-box mt-4 border-2 border-dashed border-emerald-400 bg-emerald-50/70 rounded-2xl p-6 text-center flex flex-col items-center justify-center cursor-pointer hover:bg-emerald-100/70 transition" onclick="openAddImageModal('gallery-blocks')">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="image-plus" aria-hidden="true" class="lucide lucide-image-plus w-8 h-8 text-emerald-600 mb-2"><path d="M16 5h6"></path><path d="M19 2v6"></path><path d="M21 11.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7.5"></path><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path><circle cx="9" cy="9" r="2"></circle></svg>
-        <span class="text-sm font-bold text-emerald-900">이곳에 3블록·4블록 도면 / 배치도 사진 추가하기</span>
-        <span class="text-xs text-emerald-700 mt-0.5">클릭하면 내 컴퓨터에서 사진을 선택하여 가로 100% 꽉 찬 고화질 도면으로 추가됩니다.</span>
       </div>
 
       <!-- 블록 갤러리 컨테이너 -->
@@ -1688,12 +1664,7 @@
           </div>
         </div>
       </div>
-
-      <div class="add-image-box mt-6 border-2 border-dashed border-emerald-400 bg-emerald-50/70 rounded-2xl p-6 text-center flex flex-col items-center justify-center cursor-pointer hover:bg-emerald-100/70 transition" onclick="openAddImageModal('gallery-location')">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" data-lucide="image-plus" aria-hidden="true" class="lucide lucide-image-plus w-8 h-8 text-emerald-600 mb-2"><path d="M16 5h6"></path><path d="M19 2v6"></path><path d="M21 11.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7.5"></path><path d="m21 15-3.086-3.086a2 2 0 0 0-2.828 0L6 21"></path><circle cx="9" cy="9" r="2"></circle></svg>
-        <span class="text-sm font-bold text-emerald-900">이곳에 약도 및 현장 오시는 길 사진 추가하기</span>
-      </div>
-      <div id="gallery-location" class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6"></div>
+      
 
     </div>
   </section>
@@ -2106,10 +2077,37 @@
       document.body.style.overflow = '';
     }
 
-    // Forms - Google Sheet Live Integration
+    // Forms - Google Sheet & Telegram Dual Integration
     const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx9uxIMwjCLJk_JwQ9fnHKLL_WEd4xImMnF0uWwmHAgcVtkot7qZOyLWBo3J-4H6jjZ/exec';
+    const TELEGRAM_BOT_TOKEN = '9231356460:AAFBHNTk_Bz9gm27vaAyF5x7GT-0m85gJVk';
+    const TELEGRAM_CHAT_ID = '8656755990';
 
-    async function sendToGoogleSheet(payload, submitBtn, originalBtnHtml) {
+    async function sendTelegramAlert(payload) {
+      try {
+        const text = '🚨 [계양 시간] 새로운 관심고객 등록!\n\n' +
+          '▪ 성함: ' + (payload.name || '미입력') + '\n' +
+          '▪ 연락처: ' + (payload.phone || '미입력') + '\n' +
+          '▪ 관심구분: ' + (payload.block || '전체상담') + '\n' +
+          '▪ 문의내용: ' + (payload.memo || '없음') + '\n' +
+          '▪ 접수위치: ' + (payload.formType || '랜딩페이지') + '\n' +
+          '▪ 접수일시: ' + new Date().toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' });
+
+        await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({
+            chat_id: TELEGRAM_CHAT_ID,
+            text: text
+          })
+        });
+      } catch (err) {
+        console.warn('텔레그램 직접 전송 예외:', err);
+      }
+    }
+
+    async function sendFormData(payload, submitBtn, originalBtnHtml) {
       if (submitBtn) {
         submitBtn.disabled = true;
         submitBtn.classList.add('opacity-75', 'cursor-not-allowed');
@@ -2117,17 +2115,23 @@
       }
 
       try {
-        await fetch(GOOGLE_SCRIPT_URL, {
+        // 1. 텔레그램 봇 실시간 알림 직접 발송
+        const telegramReq = sendTelegramAlert(payload);
+
+        // 2. 구글 스프레드시트 기록
+        const sheetReq = fetch(GOOGLE_SCRIPT_URL, {
           method: 'POST',
           mode: 'no-cors',
           headers: {
             'Content-Type': 'text/plain;charset=utf-8'
           },
           body: JSON.stringify(payload)
-        });
+        }).catch(err => console.warn('구글 시트 전송 예외:', err));
+
+        await Promise.allSettled([telegramReq, sheetReq]);
         return true;
       } catch (err) {
-        console.error('구글 시트 전송 오류:', err);
+        console.error('신청서 처리 오류:', err);
         return false;
       } finally {
         if (submitBtn) {
@@ -2140,13 +2144,12 @@
 
     async function handleQuickSubmit(e) {
       e.preventDefault();
-      if (isEditing) return;
       const form = e.target;
       const submitBtn = form.querySelector('button[type="submit"]');
       const originalHtml = submitBtn ? submitBtn.innerHTML : '';
 
-      const name = form.userName.value.trim();
-      const phone = form.userPhone.value.trim();
+      const name = form.userName ? form.userName.value.trim() : '';
+      const phone = form.userPhone ? form.userPhone.value.trim() : '';
 
       const payload = {
         name: name,
@@ -2156,22 +2159,26 @@
         formType: '상단 퀵 폼'
       };
 
-      await sendToGoogleSheet(payload, submitBtn, originalHtml);
+      await sendFormData(payload, submitBtn, originalHtml);
       openSuccessModal(name, phone);
       form.reset();
     }
 
     async function handleMainSubmit(e) {
       e.preventDefault();
-      if (isEditing) return;
       const form = e.target;
       const submitBtn = form.querySelector('button[type="submit"]');
       const originalHtml = submitBtn ? submitBtn.innerHTML : '';
 
-      const name = document.getElementById('mainName').value.trim();
-      const phone = document.getElementById('mainPhone').value.trim();
-      const block = document.getElementById('mainBlock').value;
-      const memo = document.getElementById('mainMemo').value.trim();
+      const nameInput = document.getElementById('mainName');
+      const phoneInput = document.getElementById('mainPhone');
+      const blockInput = document.getElementById('mainBlock');
+      const memoInput = document.getElementById('mainMemo');
+
+      const name = nameInput ? nameInput.value.trim() : '';
+      const phone = phoneInput ? phoneInput.value.trim() : '';
+      const block = blockInput ? blockInput.value : '전체상담';
+      const memo = memoInput ? memoInput.value.trim() : '';
 
       const payload = {
         name: name,
@@ -2181,7 +2188,7 @@
         formType: '하단 관심고객 상담 폼'
       };
 
-      await sendToGoogleSheet(payload, submitBtn, originalHtml);
+      await sendFormData(payload, submitBtn, originalHtml);
       openSuccessModal(name, phone);
       form.reset();
     }
