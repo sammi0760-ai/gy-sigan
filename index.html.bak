@@ -1,0 +1,2200 @@
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>인천계양 상업시설 「시간 (時間)」 | 공식 브랜드 사이트</title>
+  <meta name="description" content="계양신도시 첫 라이프 스테이 몰 「시간(時間)」 반도건설 시공. 상업용지비율 0.91% 압도적 희소가치, 마스터리스 5년간 6% 수익보장, 계약금 연 5% 이자지원, 중도금 무이자">
+  
+  <!-- Pretendard Web Font -->
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            sigan: {
+              greenDeep: '#08281d',
+              green: '#0c2f24',
+              greenLight: '#18533f',
+              greenSoft: '#226951',
+              gold: '#c59b6d',
+              goldLight: '#ecd9bc',
+              coral: '#d97a52',
+              cream: '#f8f6f0',
+              beige: '#eae4d8',
+              slateCard: '#f3f4f6',
+              textMain: '#111111',
+              textSub: '#4e5968',
+              accentRed: '#e11d48'
+            }
+          },
+          fontFamily: {
+            sans: ['Pretendard', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* 전체 폰트 Pretendard 완벽 통일 & 한글 단어 끊김 방지 & 모바일 가독성 최적화 */
+    html {
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+    *, html, body, table, th, td, span, p, h1, h2, h3, h4, input, button, select, textarea {
+      font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif !important;
+      letter-spacing: -0.025em;
+      word-break: keep-all;
+      overflow-wrap: break-word;
+    }
+    body {
+      color: #111111;
+      background-color: #ffffff;
+      -webkit-tap-highlight-color: transparent;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+    }
+
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+
+    /* Active Menu Tab Indicator */
+    .nav-tab-btn.is-active {
+      color: #0c2f24 !important;
+      font-weight: 800 !important;
+      border-bottom: 2.5px solid #0c2f24;
+    }
+
+    /* Section Smooth Transition */
+    .content-section {
+      animation: fadeInSection 0.3s ease-out forwards;
+    }
+    @keyframes fadeInSection {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Wix Live Editor Styles */
+    body.is-editing [data-editable] {
+      outline: 1.5px dashed rgba(34, 197, 94, 0.6);
+      outline-offset: 3px;
+      cursor: text;
+    }
+    body.is-editing [data-editable]:hover {
+      outline: 2px solid #16a34a;
+      background-color: rgba(34, 197, 94, 0.08);
+      border-radius: 4px;
+    }
+    body.is-editing [data-editable]:focus {
+      outline: 2.5px solid #0c2f24;
+      background-color: rgba(34, 197, 94, 0.15);
+      border-radius: 4px;
+    }
+
+    /* Universal Editable Images in Edit Mode */
+    body.is-editing img {
+      cursor: pointer !important;
+      transition: outline 0.15s ease, filter 0.15s ease;
+      outline: 2px dashed rgba(245, 158, 11, 0.7);
+    }
+    body.is-editing img:hover {
+      outline: 3px solid #f59e0b;
+      filter: brightness(0.95);
+    }
+    body.is-editing img.is-active-img {
+      outline: 3.5px solid #10b981 !important;
+      outline-offset: 3px;
+      box-shadow: 0 0 25px rgba(16, 185, 129, 0.5) !important;
+    }
+    
+    .add-image-box {
+      display: none;
+    }
+    body.is-editing .add-image-box {
+      display: flex;
+    }
+
+    /* 아이폰/스마트폰 목업 */
+    .mockup-phone {
+      width: 390px;
+      height: 800px;
+      background: #000;
+      border-radius: 50px;
+      border: 10px solid #1f2937;
+      box-shadow: 0 25px 70px -15px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.1);
+      position: relative;
+      overflow: hidden;
+    }
+    .mockup-notch {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 22px;
+      background: #000;
+      border-radius: 14px;
+      z-index: 50;
+    }
+  </style>
+</head>
+<body class="relative overflow-x-hidden antialiased selection:bg-sigan-green selection:text-white">
+
+  <!-- ==================== WIX-STYLE FLOATING EDITOR TOOLBAR ==================== -->
+  <aside id="editorToolbar" class="fixed top-4 right-4 z-[9999] bg-slate-900/95 backdrop-blur-md text-white px-3.5 py-2.5 rounded-2xl shadow-2xl border border-slate-700 flex flex-wrap items-center gap-2.5 transition-all duration-300">
+    <div class="flex items-center space-x-2">
+      <div id="editStatusDot" class="w-2.5 h-2.5 rounded-full bg-slate-500"></div>
+      <span id="editStatusText" class="text-xs font-bold text-slate-300">보기 모드</span>
+    </div>
+
+    <div class="h-4 w-px bg-slate-700"></div>
+
+    <!-- 리얼 모바일 폰 시뮬레이터 -->
+    <button 
+      onclick="openMobilePreviewModal()" 
+      class="px-3 py-1.5 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-bold transition flex items-center shadow">
+      <i data-lucide="smartphone" class="w-3.5 h-3.5 mr-1.5"></i>
+      <span>📱 리얼 모바일 화면 보기</span>
+    </button>
+
+    <!-- Toggle Edit Mode Button -->
+    <button 
+      id="toggleEditBtn" 
+      onclick="toggleWixEditMode()" 
+      class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition flex items-center shadow">
+      <i data-lucide="edit-3" class="w-3.5 h-3.5 mr-1"></i>
+      <span id="toggleBtnText">Wix 편집 켜기</span>
+    </button>
+
+    <!-- Wix Editing Active Action Tools -->
+    <div id="editorActionBtns" class="hidden flex items-center space-x-2">
+      <!-- 새 이미지 추가 툴 -->
+      <button 
+        onclick="openAddImageModal()" 
+        title="새 사진/이미지 원하는 위치에 추가" 
+        class="px-3 py-1.5 rounded-lg bg-teal-600 hover:bg-teal-500 text-white text-xs font-bold transition flex items-center shadow">
+        <i data-lucide="image-plus" class="w-3.5 h-3.5 mr-1"></i>
+        <span>➕ 새 이미지 추가</span>
+      </button>
+
+      <!-- Save & Download -->
+      <button 
+        onclick="downloadEditedHtml()" 
+        title="수정한 완성본 index.html 저장" 
+        class="px-3 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold transition flex items-center shadow">
+        <i data-lucide="download" class="w-3.5 h-3.5 mr-1"></i>
+        <span>수정본 파일 저장</span>
+      </button>
+
+      <button 
+        onclick="resetToOriginal()" 
+        title="초기 상태로 되돌리기" 
+        class="p-1.5 rounded-lg bg-slate-800 hover:bg-rose-900/60 text-slate-400 hover:text-rose-300 text-xs transition">
+        <i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i>
+      </button>
+    </div>
+  </aside>
+
+  <!-- Hidden File Input for Single Image Replacement -->
+  <input type="file" id="imageReplaceUploader" accept="image/*" class="hidden" onchange="handleReplaceImageSelected(event)">
+  <!-- Hidden File Input for Adding New Image -->
+  <input type="file" id="imageAddUploader" accept="image/*" class="hidden" onchange="handleAddImageFileSelected(event)">
+
+
+  <!-- ==================== WIX IMAGE STUDIO PANEL ==================== -->
+  <div id="imageStudioPanel" class="fixed bottom-6 right-4 sm:right-8 z-[10001] hidden w-[94vw] max-w-[440px] bg-slate-900/95 backdrop-blur-xl text-white rounded-3xl shadow-2xl border border-slate-700/80 p-5 space-y-4 max-h-[85vh] overflow-y-auto no-scrollbar">
+    <div class="flex items-center justify-between pb-3 border-b border-slate-800">
+      <div class="flex items-center space-x-2">
+        <div class="p-1.5 rounded-lg bg-emerald-500/20 text-emerald-400">
+          <i data-lucide="palette" class="w-4 h-4"></i>
+        </div>
+        <div>
+          <h4 class="font-bold text-sm text-white">이미지 크기 & 스타일 조절 (Wix Studio)</h4>
+          <p class="text-[11px] text-slate-400">클릭하신 이미지의 크기, 비율, 모양을 실시간 조절합니다.</p>
+        </div>
+      </div>
+      <button onclick="closeImageStudio()" class="p-1 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800">
+        <i data-lucide="x" class="w-4 h-4"></i>
+      </button>
+    </div>
+
+    <!-- 사진 파일 교체 & 삭제 액션 -->
+    <div class="flex items-center gap-2">
+      <button onclick="triggerReplaceImage()" class="flex-1 py-2 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition flex items-center justify-center shadow">
+        <i data-lucide="upload" class="w-3.5 h-3.5 mr-1.5"></i>
+        내 PC에서 사진 교체
+      </button>
+      <button onclick="deleteActiveImage()" class="py-2 px-3 rounded-xl bg-rose-900/60 hover:bg-rose-800 text-rose-200 text-xs font-bold transition flex items-center justify-center">
+        <i data-lucide="trash-2" class="w-3.5 h-3.5 mr-1"></i>
+        삭제
+      </button>
+    </div>
+
+    <!-- 가로 너비 (크기 조절) -->
+    <div class="space-y-1.5 bg-slate-800/60 p-3.5 rounded-2xl border border-slate-700/50">
+      <div class="flex justify-between items-center text-xs">
+        <span class="font-bold text-slate-200">가로 너비 (크기)</span>
+        <span id="labelWidthVal" class="font-bold text-emerald-400">100%</span>
+      </div>
+      <input type="range" id="sliderWidth" min="15" max="100" value="100" class="w-full accent-emerald-500 cursor-pointer" oninput="applyImageWidth(this.value)">
+      <div class="grid grid-cols-5 gap-1.5 pt-1">
+        <button onclick="applyImageWidthPreset('25%')" class="py-1 bg-slate-700 hover:bg-slate-600 text-[11px] rounded font-semibold text-slate-200">25% (소)</button>
+        <button onclick="applyImageWidthPreset('50%')" class="py-1 bg-slate-700 hover:bg-slate-600 text-[11px] rounded font-semibold text-slate-200">50% (중)</button>
+        <button onclick="applyImageWidthPreset('75%')" class="py-1 bg-slate-700 hover:bg-slate-600 text-[11px] rounded font-semibold text-slate-200">75% (대)</button>
+        <button onclick="applyImageWidthPreset('100%')" class="py-1 bg-emerald-600/80 hover:bg-emerald-600 text-[11px] rounded font-semibold text-white">100% (꽉참)</button>
+        <button onclick="applyImageWidthPreset('auto')" class="py-1 bg-slate-700 hover:bg-slate-600 text-[11px] rounded font-semibold text-slate-200">원본</button>
+      </div>
+    </div>
+
+    <!-- 세로 높이 & 비율 조절 -->
+    <div class="space-y-1.5 bg-slate-800/60 p-3.5 rounded-2xl border border-slate-700/50">
+      <div class="flex justify-between items-center text-xs">
+        <span class="font-bold text-slate-200">높이 & 종횡비</span>
+        <span id="labelHeightVal" class="font-bold text-emerald-400">자동 비율</span>
+      </div>
+      <div class="grid grid-cols-4 gap-1.5 pb-2">
+        <button onclick="applyImageRatio('auto')" class="py-1 bg-slate-700 hover:bg-slate-600 text-[11px] rounded font-semibold text-slate-200">원본비율</button>
+        <button onclick="applyImageRatio('16/9')" class="py-1 bg-slate-700 hover:bg-slate-600 text-[11px] rounded font-semibold text-slate-200">16:9 와이드</button>
+        <button onclick="applyImageRatio('4/3')" class="py-1 bg-slate-700 hover:bg-slate-600 text-[11px] rounded font-semibold text-slate-200">4:3 표준</button>
+        <button onclick="applyImageRatio('1/1')" class="py-1 bg-slate-700 hover:bg-slate-600 text-[11px] rounded font-semibold text-slate-200">1:1 정사각</button>
+      </div>
+      <input type="range" id="sliderHeight" min="120" max="600" value="300" class="w-full accent-emerald-500 cursor-pointer" oninput="applyImageHeight(this.value)">
+    </div>
+
+    <!-- 모양 -->
+    <div class="space-y-1.5 bg-slate-800/60 p-3.5 rounded-2xl border border-slate-700/50">
+      <span class="font-bold text-xs text-slate-200 block">모양 (모서리 곡률)</span>
+      <div class="grid grid-cols-4 gap-1.5">
+        <button onclick="applyImageShape('none')" class="py-1.5 bg-slate-700 hover:bg-slate-600 text-[11px] rounded font-semibold text-slate-200">각진 직각</button>
+        <button onclick="applyImageShape('rounded-xl')" class="py-1.5 bg-slate-700 hover:bg-slate-600 text-[11px] rounded font-semibold text-slate-200">라운드(12px)</button>
+        <button onclick="applyImageShape('rounded-3xl')" class="py-1.5 bg-slate-700 hover:bg-slate-600 text-[11px] rounded font-semibold text-slate-200">둥글게(24px)</button>
+        <button onclick="applyImageShape('rounded-full')" class="py-1.5 bg-slate-700 hover:bg-slate-600 text-[11px] rounded font-semibold text-slate-200">타원 / 원형</button>
+      </div>
+    </div>
+
+    <!-- 테두리 & 정렬 -->
+    <div class="space-y-2 bg-slate-800/60 p-3.5 rounded-2xl border border-slate-700/50">
+      <span class="font-bold text-xs text-slate-200 block">테두리 & 정렬</span>
+      <div class="grid grid-cols-4 gap-1.5">
+        <button onclick="applyImageBorder('none')" class="py-1 bg-slate-700 hover:bg-slate-600 text-[11px] rounded text-slate-200">테두리 없음</button>
+        <button onclick="applyImageBorder('slate')" class="py-1 bg-slate-700 hover:bg-slate-600 text-[11px] rounded text-slate-200">실선 테두리</button>
+        <button onclick="applyImageBorder('gold')" class="py-1 bg-slate-700 hover:bg-slate-600 text-[11px] rounded text-amber-300">골드 테두리</button>
+        <button onclick="applyImageBorder('green')" class="py-1 bg-slate-700 hover:bg-slate-600 text-[11px] rounded text-emerald-300">그린 테두리</button>
+      </div>
+      <div class="grid grid-cols-3 gap-1.5 pt-1">
+        <button onclick="applyImageAlign('left')" class="py-1 bg-slate-700 hover:bg-slate-600 text-[11px] rounded text-slate-200">좌측 정렬</button>
+        <button onclick="applyImageAlign('center')" class="py-1 bg-slate-700 hover:bg-slate-600 text-[11px] rounded text-slate-200">가운데 정렬</button>
+        <button onclick="applyImageAlign('right')" class="py-1 bg-slate-700 hover:bg-slate-600 text-[11px] rounded text-slate-200">우측 정렬</button>
+      </div>
+    </div>
+
+    <button onclick="closeImageStudio()" class="w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold text-xs flex items-center justify-center transition shadow-lg">
+      <i data-lucide="check" class="w-4 h-4 mr-1"></i>
+      적용 완료 (닫기)
+    </button>
+  </div>
+
+
+  <!-- ==================== ADD NEW IMAGE MODAL ==================== -->
+  <div id="addImageModal" class="fixed inset-0 z-[10002] hidden bg-black/75 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-700 rounded-3xl max-w-md w-full p-6 text-white shadow-2xl space-y-4">
+      <div class="flex justify-between items-center pb-3 border-b border-slate-800">
+        <div class="flex items-center space-x-2">
+          <i data-lucide="image-plus" class="w-5 h-5 text-emerald-400"></i>
+          <h3 class="font-bold text-base">새 이미지 추가하기</h3>
+        </div>
+        <button onclick="closeAddImageModal()" class="text-slate-400 hover:text-white">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+      <div class="space-y-3 text-xs">
+        <div>
+          <label class="block font-bold text-slate-300 mb-1">1. 이미지를 넣을 위치 (섹션)</label>
+          <select id="newImageTargetSection" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2 text-white outline-none">
+            <option value="gallery-overview">상업시설 공식 개요 / 조감도 갤러리</option>
+            <option value="gallery-blocks">3블록·4블록 층별 MD 및 도면 갤러리</option>
+            <option value="gallery-premium">공식 8대 프리미엄 영역</option>
+            <option value="gallery-location">견본주택 오시는 길 영역</option>
+          </select>
+        </div>
+
+        <div>
+          <label class="block font-bold text-slate-300 mb-1">2. 사진 업로드 방법</label>
+          <div class="grid grid-cols-2 gap-2">
+            <button onclick="document.getElementById('imageAddUploader').click()" class="py-2.5 px-3 bg-emerald-600 hover:bg-emerald-500 rounded-xl font-bold text-white flex items-center justify-center shadow">
+              <i data-lucide="hard-drive" class="w-3.5 h-3.5 mr-1.5"></i>
+              내 PC 파일 선택
+            </button>
+            <button onclick="promptForImageUrl()" class="py-2.5 px-3 bg-slate-800 hover:bg-slate-700 rounded-xl font-bold text-slate-200 border border-slate-700 flex items-center justify-center">
+              <i data-lucide="link" class="w-3.5 h-3.5 mr-1.5"></i>
+              이미지 URL 입력
+            </button>
+          </div>
+          <p id="newImageFileName" class="text-[11px] text-emerald-400 mt-1 font-semibold truncate"></p>
+        </div>
+
+        <div>
+          <label class="block font-bold text-slate-300 mb-1">3. 사진 설명 문구 (캡션)</label>
+          <input type="text" id="newImageCaption" placeholder="예: 인천계양 시간 조감도 전경" class="w-full bg-slate-800 border border-slate-700 rounded-xl px-3 py-2 text-white outline-none" />
+        </div>
+
+        <div>
+          <label class="block font-bold text-slate-300 mb-1">4. 초기 크기</label>
+          <div class="grid grid-cols-3 gap-2">
+            <label class="flex items-center space-x-1.5 p-2 bg-slate-800 rounded-xl border border-slate-700 cursor-pointer">
+              <input type="radio" name="initSize" value="100%" checked class="accent-emerald-500">
+              <span class="text-xs">100% 꽉참</span>
+            </label>
+            <label class="flex items-center space-x-1.5 p-2 bg-slate-800 rounded-xl border border-slate-700 cursor-pointer">
+              <input type="radio" name="initSize" value="75%" class="accent-emerald-500">
+              <span class="text-xs">75% 대형</span>
+            </label>
+            <label class="flex items-center space-x-1.5 p-2 bg-slate-800 rounded-xl border border-slate-700 cursor-pointer">
+              <input type="radio" name="initSize" value="50%" class="accent-emerald-500">
+              <span class="text-xs">50% 중형</span>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-2 flex gap-2">
+        <button onclick="confirmAddNewImage()" class="flex-1 py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl text-xs transition shadow-lg flex items-center justify-center">
+          <i data-lucide="plus-circle" class="w-4 h-4 mr-1.5"></i>
+          지금 페이지에 삽입하기
+        </button>
+        <button onclick="closeAddImageModal()" class="py-3 px-4 bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold rounded-xl text-xs">
+          취소
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==================== REAL MOBILE PREVIEW MODAL ==================== -->
+  <div id="mobilePreviewModal" class="fixed inset-0 z-[10000] hidden bg-black/80 backdrop-blur-md flex items-center justify-center p-4">
+    <div class="relative flex flex-col items-center">
+      <div class="w-full max-w-[390px] flex justify-between items-center mb-3 text-white text-xs">
+        <span class="flex items-center text-slate-300 font-medium">
+          <i data-lucide="smartphone" class="w-4 h-4 mr-1 text-emerald-400"></i>
+          실제 스마트폰 화면 시뮬레이터 (390px)
+        </span>
+        <button onclick="closeMobilePreviewModal()" class="px-2.5 py-1 bg-white/20 hover:bg-white/30 rounded-lg text-white font-bold flex items-center">
+          <i data-lucide="x" class="w-4 h-4 mr-1"></i> 닫기
+        </button>
+      </div>
+
+      <div class="mockup-phone">
+        <div class="mockup-notch"></div>
+        <iframe id="mobilePreviewFrame" src="" class="w-full h-full border-0 bg-white pt-6"></iframe>
+      </div>
+      
+      <p class="text-[11px] text-slate-400 mt-3 text-center">
+        ※ 실제 핸드폰 기기에서 접속했을 때 나타나는 100% 동일한 반응형 화면입니다.
+      </p>
+    </div>
+  </div>
+
+
+  <!-- ==================== MAP ZOOM MODAL (광역도 고화질 확대 뷰어) ==================== -->
+  <div id="mapZoomModal" class="fixed inset-0 z-[10003] hidden bg-black/90 backdrop-blur-md flex items-center justify-center p-2 sm:p-6" onclick="closeMapZoomModal()">
+    <div class="relative max-w-6xl w-full max-h-[92vh] flex flex-col items-center" onclick="event.stopPropagation()">
+      <div class="w-full flex justify-between items-center text-white mb-2 px-2">
+        <span class="text-sm font-bold text-slate-200 flex items-center">
+          <i data-lucide="map" class="w-4 h-4 mr-1.5 text-sigan-gold"></i>
+          공식 광역도 원본 고화질 뷰어
+        </span>
+        <button onclick="closeMapZoomModal()" class="px-3 py-1.5 bg-white/20 hover:bg-white/30 rounded-xl text-white font-bold text-xs flex items-center">
+          <i data-lucide="x" class="w-4 h-4 mr-1"></i> 닫기
+        </button>
+      </div>
+      <div class="w-full overflow-auto max-h-[85vh] rounded-2xl border border-white/20 bg-slate-950 p-2 text-center">
+        <img id="zoomModalImg" src="" alt="고화질 광역도" class="max-w-none w-full sm:w-auto sm:max-w-full h-auto object-contain mx-auto" />
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==================== TOP OFFICIAL BAR ==================== -->
+  <div class="bg-sigan-greenDeep text-slate-300 text-xs py-2 px-4 border-b border-white/10 hidden md:block">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-3">
+        <span class="inline-flex items-center text-sigan-gold font-bold">
+          <i data-lucide="check-check" class="w-4 h-4 mr-1 text-sigan-gold"></i>
+          계양신도시 첫 라이프 스테이 몰 「시간 (時間)」 공식 안내
+        </span>
+        <span class="text-slate-500">|</span>
+        <span class="text-slate-300" data-editable>시공: 반도건설(주)</span>
+      </div>
+      <div class="flex items-center space-x-5 text-slate-300">
+        <span class="flex items-center" data-editable>
+          <i data-lucide="map-pin" class="w-3.5 h-3.5 mr-1 text-sigan-gold"></i>
+          견본주택: 경기 부천시 원미구 도당동 222-46 (서울 양천구 신월동 537-1 외)
+        </span>
+        <span class="text-slate-500">|</span>
+        <a href="tel:1800-0320" class="text-sigan-gold hover:text-white font-bold flex items-center">
+          <i data-lucide="phone-call" class="w-3.5 h-3.5 mr-1"></i>
+          대표문의: 1800-0320
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==================== HEADER & SPA NAVIGATION ==================== -->
+  <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 transition-all">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-16 sm:h-20">
+        
+        <!-- 공식 이미지 로고 -->
+        <a href="javascript:showSection('all')" class="flex items-center space-x-3 group py-1">
+          <img 
+            src="images/logo.png" 
+            alt="인천계양 상업시설 시간 공식 로고" 
+            class="h-12 sm:h-14 w-auto object-contain transition-transform group-hover:scale-105"
+            data-editable-img
+          />
+          <div class="flex flex-col">
+            <div class="flex items-center space-x-1.5">
+              <span class="text-xs sm:text-sm text-sigan-green font-extrabold tracking-wider" data-editable>인천계양 AC3·AC4BL</span>
+              <span class="text-[10px] sm:text-xs bg-sigan-green text-white px-1.5 py-0.5 rounded font-semibold">공식</span>
+            </div>
+            <span class="text-xs text-slate-500 font-semibold" data-editable>반도건설 라이프 스테이 몰</span>
+          </div>
+        </a>
+
+        <!-- Desktop Menu Bar -->
+        <nav class="hidden lg:flex items-center space-x-1">
+          <button onclick="showSection('all')" id="navBtn-all" class="nav-tab-btn is-active px-3 py-2 text-sm font-bold text-slate-700 hover:text-sigan-green transition border-b-2 border-transparent">
+            전체보기
+          </button>
+          <button onclick="showSection('overview')" id="navBtn-overview" class="nav-tab-btn px-3 py-2 text-sm font-bold text-slate-700 hover:text-sigan-green transition border-b-2 border-transparent">
+            사업개요
+          </button>
+          <button onclick="showSection('premium')" id="navBtn-premium" class="nav-tab-btn px-3 py-2 text-sm font-bold text-slate-700 hover:text-sigan-green transition border-b-2 border-transparent">
+            8대 프리미엄
+          </button>
+          <button onclick="showSection('rarity')" id="navBtn-rarity" class="nav-tab-btn px-3 py-2 text-sm font-bold text-slate-700 hover:text-sigan-green transition border-b-2 border-transparent">
+            0.91% 희소가치
+          </button>
+          <button onclick="showSection('blocks')" id="navBtn-blocks" class="nav-tab-btn px-3 py-2 text-sm font-bold text-slate-700 hover:text-sigan-green transition border-b-2 border-transparent">
+            3·4블록 MD
+          </button>
+          <button onclick="showSection('location')" id="navBtn-location" class="nav-tab-btn px-3 py-2 text-sm font-bold text-slate-700 hover:text-sigan-green transition border-b-2 border-transparent">
+            오시는 길
+          </button>
+          <button onclick="showSection('inquiry')" id="navBtn-inquiry" class="ml-2 px-4 py-2 rounded-xl bg-sigan-green text-white text-sm font-bold hover:bg-sigan-greenLight transition shadow-md flex items-center">
+            <i data-lucide="calendar" class="w-3.5 h-3.5 mr-1.5 text-sigan-gold"></i>
+            VIP 상담신청
+          </button>
+        </nav>
+
+        <!-- Mobile Header Actions -->
+        <div class="flex items-center space-x-2 lg:hidden">
+          <a href="tel:1800-0320" class="p-2 rounded-lg bg-emerald-50 text-sigan-green border border-emerald-200">
+            <i data-lucide="phone" class="w-5 h-5"></i>
+          </a>
+          <button id="mobileMenuBtn" class="p-2 rounded-lg bg-slate-100 text-slate-800">
+            <i data-lucide="menu" class="w-6 h-6"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobileMenu" class="hidden lg:hidden border-t border-slate-200 bg-white px-4 py-3 space-y-1">
+      <button onclick="showSection('all'); toggleMobileMenu()" class="block w-full text-left px-3 py-2.5 rounded-lg text-sm font-bold text-sigan-green bg-emerald-50">
+        전체 한눈에 보기
+      </button>
+      <button onclick="showSection('overview'); toggleMobileMenu()" class="block w-full text-left px-3 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-slate-50">
+        1. 사업개요 (AC3BL · AC4BL 면적표)
+      </button>
+      <button onclick="showSection('premium'); toggleMobileMenu()" class="block w-full text-left px-3 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-slate-50">
+        2. 공식 8대 프리미엄 (PREMIUM 8)
+      </button>
+      <button onclick="showSection('rarity'); toggleMobileMenu()" class="block w-full text-left px-3 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-slate-50">
+        3. 상업용지비율 0.91% 희소가치 비교
+      </button>
+      <button onclick="showSection('blocks'); toggleMobileMenu()" class="block w-full text-left px-3 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-slate-50">
+        4. 3블록·4블록 층별 MD 구성
+      </button>
+      <button onclick="showSection('location'); toggleMobileMenu()" class="block w-full text-left px-3 py-2.5 rounded-lg text-sm font-bold text-slate-800 hover:bg-slate-50">
+        5. 입지환경 및 견본주택 오시는길
+      </button>
+      <button onclick="showSection('inquiry'); toggleMobileMenu()" class="block w-full text-center px-3 py-3 rounded-lg text-sm font-bold text-white bg-sigan-green mt-2">
+        VIP 방문예약 및 상담신청
+      </button>
+    </div>
+  </header>
+
+
+  <!-- Section View Indicator Bar -->
+  <div id="sectionIndicatorBar" class="hidden bg-emerald-900 text-white py-2.5 px-4 text-xs font-bold text-center border-b border-emerald-800">
+    <div class="max-w-7xl mx-auto flex items-center justify-between">
+      <span class="flex items-center">
+        <i data-lucide="eye" class="w-4 h-4 mr-1.5 text-sigan-gold"></i>
+        현재 보고 계신 메뉴: <span id="currentSectionName" class="text-sigan-gold ml-1 font-black"></span>
+      </span>
+      <button onclick="showSection('all')" class="text-emerald-200 hover:text-white underline text-xs">
+        [전체 한눈에 보기로 복귀]
+      </button>
+    </div>
+  </div>
+
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="sec-hero" class="relative bg-sigan-greenDeep text-white overflow-hidden pt-12 pb-16 sm:py-24">
+    <!-- Clean Luxury Background Decor (은은한 골드 & 딥그린 블러 그라데이션) -->
+    <div class="absolute inset-0 pointer-events-none select-none z-0">
+      <div class="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-sigan-gold/15 blur-3xl"></div>
+      <div class="absolute bottom-0 -left-40 w-96 h-96 rounded-full bg-sigan-greenSoft/25 blur-3xl"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-[#08281d] via-[#0c2f24] to-[#08281d]/95"></div>
+    </div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- ==================== 공식 특별 분양 혜택 바 ==================== -->
+      <!-- Desktop Version (hidden sm:flex) -->
+      <div class="hidden sm:flex mb-8 p-4 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 items-center justify-between gap-4 text-xs sm:text-sm shadow-md">
+        <div class="flex items-center space-x-2.5">
+          <span class="px-2.5 py-1 rounded-md bg-sigan-coral text-white font-extrabold text-xs uppercase tracking-wider">OFFICIAL SPECIAL</span>
+          <span class="font-bold text-sigan-gold" data-editable>선착순 공식 특별 분양 혜택 안내</span>
+        </div>
+        <div class="flex items-center space-x-4 text-slate-200 text-xs sm:text-sm font-medium">
+          <span class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 mr-1 text-sigan-gold"></i>5년 6% 확정수익</span>
+          <span class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 mr-1 text-sigan-gold"></i>계약금 연 5% 이자지원</span>
+          <span class="flex items-center"><i data-lucide="check" class="w-3.5 h-3.5 mr-1 text-sigan-gold"></i>중도금 무이자</span>
+        </div>
+      </div>
+
+      <!-- Mobile Dedicated Version (block sm:hidden - 모바일 최적화 정렬 디자인) -->
+      <div class="block sm:hidden mb-6 p-3.5 rounded-2xl bg-white/[0.08] backdrop-blur-md border border-white/15 shadow-md">
+        <div class="flex items-center justify-between pb-2.5 border-b border-white/10">
+          <div class="flex items-center space-x-2">
+            <span class="px-2 py-0.5 rounded-md bg-sigan-coral text-white font-black text-[10px] tracking-wider uppercase">SPECIAL</span>
+            <span class="font-bold text-sigan-gold text-xs tracking-tight" data-editable>공식 특별 분양 혜택 안내</span>
+          </div>
+          <span class="text-[10px] text-emerald-300 font-bold bg-emerald-950/60 px-1.5 py-0.5 rounded border border-emerald-500/30">선착순</span>
+        </div>
+        <div class="grid grid-cols-3 gap-1.5 pt-2 text-center">
+          <div class="bg-black/30 rounded-xl py-2 px-1 border border-white/5">
+            <span class="text-[10px] text-slate-300 block font-medium">확정수익</span>
+            <strong class="text-xs font-black text-sigan-gold block mt-0.5">5년 6%</strong>
+          </div>
+          <div class="bg-black/30 rounded-xl py-2 px-1 border border-white/5">
+            <span class="text-[10px] text-slate-300 block font-medium">이자지원</span>
+            <strong class="text-xs font-black text-sigan-gold block mt-0.5">연 5%</strong>
+          </div>
+          <div class="bg-black/30 rounded-xl py-2 px-1 border border-white/5">
+            <span class="text-[10px] text-slate-300 block font-medium">중도금</span>
+            <strong class="text-xs font-black text-emerald-400 block mt-0.5">무이자</strong>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+        
+        <!-- Hero Text -->
+        <div class="lg:col-span-7 space-y-4 sm:space-y-6 text-left">
+          <div class="inline-flex items-center space-x-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-xs text-sigan-gold font-bold">
+            <span class="w-2 h-2 rounded-full bg-sigan-gold animate-pulse"></span>
+            <span data-editable>계양신도시 첫 라이프 스테이 몰</span>
+          </div>
+
+          <h1 class="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-snug sm:leading-tight">
+            <span class="block text-slate-200 text-base sm:text-2xl font-light mb-1" data-editable>머무름이 곧 가치가 되는 곳</span>
+            <span class="text-white" data-editable>인천계양 상업시설</span>
+            <span class="text-sigan-gold block mt-0.5" data-editable>「시간(時間)」</span>
+          </h1>
+
+          <p class="text-slate-300 text-xs sm:text-base lg:text-lg leading-relaxed font-light break-keep" data-editable>
+            첨단산업단지 <strong class="text-white font-bold">계양AX파크</strong>의 풍부한 배후수요와 투자가치!<br class="hidden sm:block">
+            택지 내 상업시설용지 단 <strong class="text-sigan-gold font-bold">0.91%</strong>의 독점적 프리미엄을 선점하십시오.
+          </p>
+
+          <!-- 3대 핵심 혜택 -->
+          <div class="grid grid-cols-3 gap-1.5 sm:gap-3 pt-1 sm:pt-2">
+            <div class="bg-white/10 backdrop-blur-md rounded-xl p-2.5 sm:p-3 border border-white/15 text-center sm:text-left">
+              <span class="text-[10px] sm:text-[11px] text-slate-300 block truncate">마스터리스</span>
+              <p class="text-xs sm:text-sm font-extrabold text-sigan-gold mt-0.5" data-editable>연 6% (5년)</p>
+            </div>
+            <div class="bg-white/10 backdrop-blur-md rounded-xl p-2.5 sm:p-3 border border-white/15 text-center sm:text-left">
+              <span class="text-[10px] sm:text-[11px] text-slate-300 block truncate">계약금 혜택</span>
+              <p class="text-xs sm:text-sm font-extrabold text-sigan-gold mt-0.5" data-editable>연 5% 지원</p>
+            </div>
+            <div class="bg-white/10 backdrop-blur-md rounded-xl p-2.5 sm:p-3 border border-white/15 text-center sm:text-left">
+              <span class="text-[10px] sm:text-[11px] text-slate-300 block truncate">중도금 안심</span>
+              <p class="text-xs sm:text-sm font-extrabold text-sigan-gold mt-0.5" data-editable>40% 무이자</p>
+            </div>
+          </div>
+
+          <div class="pt-2 grid grid-cols-1 sm:flex gap-2.5 sm:gap-3">
+            <a href="#sec-inquiry" class="w-full sm:w-auto justify-center px-6 py-3.5 rounded-xl bg-sigan-gold text-slate-950 font-black text-sm sm:text-base hover:bg-amber-300 transition shadow-xl flex items-center">
+              <i data-lucide="file-text" class="w-4 h-4 mr-2"></i>
+              VIP 잔여호실 및 분양가 조회
+            </a>
+            <a href="tel:1800-0320" class="w-full sm:w-auto justify-center px-6 py-3.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-bold text-sm sm:text-base border border-white/30 transition flex items-center">
+              <i data-lucide="phone" class="w-4 h-4 mr-2 text-sigan-gold"></i>
+              대표문의 1800-0320
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Quick Form (성함과 연락처 2개만 바로 입력하여 1초 구글시트 접수) -->
+        <div class="lg:col-span-5">
+          <div class="bg-white text-slate-900 rounded-2xl sm:rounded-3xl p-5 sm:p-8 shadow-2xl border border-slate-200">
+            <div class="flex items-center justify-between pb-3.5 border-b border-slate-200">
+              <div>
+                <span class="text-[10px] sm:text-[11px] font-bold text-sigan-green uppercase tracking-wider" data-editable>FAST INQUIRY</span>
+                <h3 class="text-base sm:text-xl font-black text-slate-900" data-editable>분양가 및 잔여호실 간편 조회</h3>
+              </div>
+              <span class="w-2.5 h-2.5 rounded-full bg-rose-500 animate-ping"></span>
+            </div>
+
+            <p class="text-xs text-slate-500 mt-2.5 break-keep" data-editable>
+              성함과 연락처를 남겨주시면 담당자가 호실 배치도와 층별 분양가를 1:1로 발송해 드립니다.
+            </p>
+
+            <form onsubmit="handleQuickSubmit(event)" class="mt-4 space-y-3 sm:space-y-3.5">
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">고객 성함</label>
+                <input 
+                  type="text" 
+                  name="userName" 
+                  required 
+                  placeholder="예: 홍길동" 
+                  class="w-full bg-slate-50 border border-slate-300 focus:border-sigan-green focus:bg-white text-slate-900 text-sm rounded-xl px-3.5 py-2.5 sm:py-3 outline-none transition"
+                />
+              </div>
+
+              <div>
+                <label class="block text-xs font-bold text-slate-700 mb-1">휴대폰 번호</label>
+                <input 
+                  type="tel" 
+                  name="userPhone" 
+                  required 
+                  placeholder="010-0000-0000" 
+                  class="w-full bg-slate-50 border border-slate-300 focus:border-sigan-green focus:bg-white text-slate-900 text-sm rounded-xl px-3.5 py-2.5 sm:py-3 outline-none transition"
+                />
+              </div>
+
+              <div class="pt-1">
+                <button 
+                  type="submit" 
+                  class="w-full py-3.5 sm:py-4 rounded-xl bg-sigan-green text-white font-extrabold text-sm sm:text-base hover:bg-sigan-greenLight active:scale-[0.99] transition shadow-lg flex items-center justify-center">
+                  <i data-lucide="send" class="w-4 h-4 mr-1.5 text-sigan-gold"></i>
+                  <span data-editable>호실별 분양가 자료 즉시 요청하기</span>
+                </button>
+              </div>
+
+              <div class="text-[10px] sm:text-[11px] text-slate-500 flex items-center justify-center space-x-1">
+                <i data-lucide="shield-check" class="w-3.5 h-3.5 text-emerald-600"></i>
+                <span data-editable>개인정보는 분양안내 상담 목적 외 일체 사용되지 않습니다.</span>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Hero Bottom Stats Bar (수치 정확 표기) -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4 mt-8 sm:mt-10 pt-6 sm:pt-8 border-t border-white/10 text-center">
+        <div class="bg-white/5 rounded-xl sm:rounded-2xl p-3 sm:p-4 border border-white/10">
+          <span class="text-[11px] sm:text-sm text-slate-300 block font-semibold" data-editable>총 상가 규모</span>
+          <p class="text-xl sm:text-4xl font-black text-sigan-gold mt-1" data-editable>총 203실</p>
+          <span class="text-[10px] sm:text-xs text-slate-400 mt-0.5 block truncate" data-editable>AC3BL 112실 / AC4BL 91실</span>
+        </div>
+        <div class="bg-white/5 rounded-xl sm:rounded-2xl p-3 sm:p-4 border border-white/10">
+          <span class="text-[11px] sm:text-sm text-slate-300 block font-semibold" data-editable>상업용지비율</span>
+          <p class="text-xl sm:text-4xl font-black text-white mt-1" data-editable>0.91%</p>
+          <span class="text-[10px] sm:text-xs text-slate-400 mt-0.5 block truncate" data-editable>수도권 신도시 최저 수준 희소성</span>
+        </div>
+        <div class="bg-white/5 rounded-xl sm:rounded-2xl p-3 sm:p-4 border border-white/10">
+          <span class="text-[11px] sm:text-sm text-slate-300 block font-semibold" data-editable>마스터리스 호실</span>
+          <p class="text-xl sm:text-4xl font-black text-sigan-gold mt-1" data-editable>5년 6%</p>
+          <span class="text-[10px] sm:text-xs text-slate-400 mt-0.5 block truncate" data-editable>반도건설 직접 통임차 확정수익</span>
+        </div>
+        <div class="bg-white/5 rounded-xl sm:rounded-2xl p-3 sm:p-4 border border-white/10">
+          <span class="text-[11px] sm:text-sm text-slate-300 block font-semibold" data-editable>계양테크노밸리 배후</span>
+          <p class="text-xl sm:text-4xl font-black text-white mt-1" data-editable>약 4.3만명</p>
+          <span class="text-[10px] sm:text-xs text-slate-400 mt-0.5 block truncate" data-editable>계양AX파크 + 고정 주거타운</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== SECTION: 0.91% RARITY COMPARISON (공식 사이트 희소가치 차트) ==================== -->
+  <section id="sec-rarity" class="content-section py-14 sm:py-20 bg-sigan-cream border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+        <span class="text-xs sm:text-sm font-bold text-sigan-green uppercase tracking-widest" data-editable>OVERWHELMING RARITY</span>
+        <h2 class="text-xl sm:text-3xl font-black text-slate-900 mt-1" data-editable>수도권 주요 신도시 상업시설용지 비율 비교</h2>
+        <div class="w-12 h-1 bg-sigan-green mx-auto mt-2.5"></div>
+        <p class="text-slate-600 text-xs sm:text-sm mt-2.5" data-editable>
+          상업용지비율이 낮을수록 상가 과공급 리스크가 없고, 점포당 독점 고객수가 비약적으로 늘어납니다.
+        </p>
+      </div>
+
+      <!-- 바 차트 시각화 -->
+      <div class="max-w-3xl mx-auto bg-white rounded-3xl p-6 sm:p-9 border border-slate-200 shadow-md space-y-4">
+        
+        <!-- 인천계양 (하이라이트) -->
+        <div class="space-y-1.5 p-3.5 rounded-2xl bg-emerald-50 border-2 border-sigan-green">
+          <div class="flex justify-between items-center text-xs sm:text-sm font-black text-sigan-green">
+            <span class="flex items-center">
+              <span class="w-2.5 h-2.5 rounded-full bg-sigan-green mr-2"></span>
+              ★ 인천계양 (본 상가)
+            </span>
+            <span class="text-base sm:text-lg font-black">0.91% (압도적 최저)</span>
+          </div>
+          <div class="w-full bg-slate-200 rounded-full h-4 overflow-hidden">
+            <div class="bg-sigan-green h-full rounded-full transition-all duration-1000" style="width: 25%"></div>
+          </div>
+          <p class="text-[11px] text-emerald-800 font-bold mt-1">
+            ※ 과공급 없는 독점 항아리 상권 형성 / 공실 위험 최소화
+          </p>
+        </div>
+
+        <!-- 시흥목감 -->
+        <div class="space-y-1">
+          <div class="flex justify-between text-xs text-slate-600 font-semibold">
+            <span>시흥목감</span>
+            <span>0.96%</span>
+          </div>
+          <div class="w-full bg-slate-100 rounded-full h-3 overflow-hidden">
+            <div class="bg-slate-400 h-full rounded-full" style="width: 28%"></div>
+          </div>
+        </div>
+
+        <!-- 별내 -->
+        <div class="space-y-1">
+          <div class="flex justify-between text-xs text-slate-600 font-semibold">
+            <span>남양주 별내</span>
+            <span>1.50%</span>
+          </div>
+          <div class="w-full bg-slate-100 rounded-full h-3 overflow-hidden">
+            <div class="bg-slate-400 h-full rounded-full" style="width: 45%"></div>
+          </div>
+        </div>
+
+        <!-- 하남미사 -->
+        <div class="space-y-1">
+          <div class="flex justify-between text-xs text-slate-600 font-semibold">
+            <span>하남 미사</span>
+            <span>1.80% (계양의 약 2배)</span>
+          </div>
+          <div class="w-full bg-slate-100 rounded-full h-3 overflow-hidden">
+            <div class="bg-slate-400 h-full rounded-full" style="width: 58%"></div>
+          </div>
+        </div>
+
+        <!-- 동탄2 -->
+        <div class="space-y-1">
+          <div class="flex justify-between text-xs text-slate-600 font-semibold">
+            <span>화성 동탄2</span>
+            <span>2.10% (계양의 2.3배)</span>
+          </div>
+          <div class="w-full bg-slate-100 rounded-full h-3 overflow-hidden">
+            <div class="bg-slate-400 h-full rounded-full" style="width: 70%"></div>
+          </div>
+        </div>
+
+        <!-- 위례 -->
+        <div class="space-y-1">
+          <div class="flex justify-between text-xs text-slate-600 font-semibold">
+            <span>위례신도시</span>
+            <span>2.40% (계양의 2.6배)</span>
+          </div>
+          <div class="w-full bg-slate-100 rounded-full h-3 overflow-hidden">
+            <div class="bg-slate-400 h-full rounded-full" style="width: 80%"></div>
+          </div>
+        </div>
+
+        <div class="pt-3 border-t border-slate-100 text-center text-xs text-slate-500" data-editable>
+          출처: 수도권 주요 공공주택지구 개발계획 고시 기준 / 타 신도시 대비 독점 상권 프리미엄 보장
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== SECTION: OFFICIAL PREMIUM 8 (공식 8대 프리미엄) ==================== -->
+  <section id="sec-premium" class="content-section py-14 sm:py-20 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+        <span class="text-xs sm:text-sm font-bold text-sigan-green uppercase tracking-widest" data-editable>PREMIUM 8</span>
+        <h2 class="text-xl sm:text-3xl font-black text-slate-900 mt-1" data-editable>계양신도시가 주목하는 공식 8대 프리미엄</h2>
+        <div class="w-12 h-1 bg-sigan-green mx-auto mt-2.5"></div>
+        <p class="text-slate-600 text-xs sm:text-sm mt-2.5" data-editable>
+          반도건설 공식 홈페이지에서 검증된 핵심 투자가치 8가지를 한눈에 확인하십시오.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        
+        <!-- 01 -->
+        <div class="bg-sigan-cream rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sigan-green transition group">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-black text-sigan-green bg-emerald-100 px-2.5 py-1 rounded-lg">PREMIUM 01</span>
+              <i data-lucide="gem" class="w-5 h-5 text-sigan-green"></i>
+            </div>
+            <h3 class="text-base sm:text-lg font-black text-slate-900 mb-1.5" data-editable>높은 희소가치</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" data-editable>
+              택지 내 상업시설용지 단 <strong>0.91%</strong>의 독점적 프리미엄! 과공급 리스크 없이 공실 위험을 원천 차단합니다.
+            </p>
+          </div>
+          <div class="mt-4 pt-2.5 border-t border-slate-200 text-xs font-bold text-sigan-green">수도권 최저 수준</div>
+        </div>
+
+        <!-- 02 -->
+        <div class="bg-sigan-cream rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sigan-green transition group">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-black text-sigan-green bg-emerald-100 px-2.5 py-1 rounded-lg">PREMIUM 02</span>
+              <i data-lucide="cpu" class="w-5 h-5 text-sigan-green"></i>
+            </div>
+            <h3 class="text-base sm:text-lg font-black text-slate-900 mb-1.5" data-editable>풍부한 배후수요</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" data-editable>
+              계양테크노밸리 약 4.3만 명 배후 및 판교 1.4배 규모의 첨단산업단지 <strong>계양AX파크(D.N.A 혁신클러스터)</strong> 종사자 유입.
+            </p>
+          </div>
+          <div class="mt-4 pt-2.5 border-t border-slate-200 text-xs font-bold text-sigan-green">고소득 테크 인력 상권</div>
+        </div>
+
+        <!-- 03 -->
+        <div class="bg-sigan-cream rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sigan-green transition group">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-black text-sigan-green bg-emerald-100 px-2.5 py-1 rounded-lg">PREMIUM 03</span>
+              <i data-lucide="users" class="w-5 h-5 text-sigan-green"></i>
+            </div>
+            <h3 class="text-base sm:text-lg font-black text-slate-900 mb-1.5" data-editable>고정 수요 확보</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" data-editable>
+              반도유보라 더테라스 단지 내 고정고객 및 입점 시점 3,544세대 기입주 확보! 총 7,175세대 주거타운 중심.
+            </p>
+          </div>
+          <div class="mt-4 pt-2.5 border-t border-slate-200 text-xs font-bold text-sigan-green">입점 즉시 안정적 소비</div>
+        </div>
+
+        <!-- 04 -->
+        <div class="bg-sigan-cream rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sigan-green transition group">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-black text-sigan-green bg-emerald-100 px-2.5 py-1 rounded-lg">PREMIUM 04</span>
+              <i data-lucide="train" class="w-5 h-5 text-sigan-green"></i>
+            </div>
+            <h3 class="text-base sm:text-lg font-black text-slate-900 mb-1.5" data-editable>사통팔달 교통망</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" data-editable>
+              인천 1호선 박촌역, 대장홍대선 계양신도시 연장(추진), S-BRT, 경명대로·벌말로 확장으로 서울 접근성 극대화.
+            </p>
+          </div>
+          <div class="mt-4 pt-2.5 border-t border-slate-200 text-xs font-bold text-sigan-green">서울 홍대 20분대 연결</div>
+        </div>
+
+        <!-- 05 -->
+        <div class="bg-sigan-cream rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sigan-green transition group">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-black text-sigan-green bg-emerald-100 px-2.5 py-1 rounded-lg">PREMIUM 05</span>
+              <i data-lucide="shopping-bag" class="w-5 h-5 text-sigan-green"></i>
+            </div>
+            <h3 class="text-base sm:text-lg font-black text-slate-900 mb-1.5" data-editable>앵커테넌트 유치</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" data-editable>
+              키즈, 에듀, 메디컬, 유명 F&B 등 고객 체류 시간을 극대화하는 키 테넌트 입점 계획으로 상권 활성화 견인.
+            </p>
+          </div>
+          <div class="mt-4 pt-2.5 border-t border-slate-200 text-xs font-bold text-sigan-green">체류형 복합 MD 설계</div>
+        </div>
+
+        <!-- 06 -->
+        <div class="bg-sigan-cream rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sigan-green transition group">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-black text-sigan-green bg-emerald-100 px-2.5 py-1 rounded-lg">PREMIUM 06</span>
+              <i data-lucide="shield-check" class="w-5 h-5 text-sigan-green"></i>
+            </div>
+            <h3 class="text-base sm:text-lg font-black text-slate-900 mb-1.5" data-editable>반도건설 직영몰 & 마스터리스</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" data-editable>
+              건설사 직접 직영몰 운영(약 206평)과 <strong>5년간 6% 확정수익 마스터리스(45실)</strong>로 안심 투자 보장.
+            </p>
+          </div>
+          <div class="mt-4 pt-2.5 border-t border-slate-200 text-xs font-bold text-sigan-green">공실 걱정 없는 수익률</div>
+        </div>
+
+        <!-- 07 -->
+        <div class="bg-sigan-cream rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sigan-green transition group">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-black text-sigan-green bg-emerald-100 px-2.5 py-1 rounded-lg">PREMIUM 07</span>
+              <i data-lucide="layout" class="w-5 h-5 text-sigan-green"></i>
+            </div>
+            <h3 class="text-base sm:text-lg font-black text-slate-900 mb-1.5" data-editable>스트리트 몰 & 특화설계</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" data-editable>
+              지상 2층 에스컬레이터 연계로 상층부 접근성 극대화 및 전면 스트리트형 개방형 테라스 보행 특화 설계.
+            </p>
+          </div>
+          <div class="mt-4 pt-2.5 border-t border-slate-200 text-xs font-bold text-sigan-green">2층 에스컬레이터 완비</div>
+        </div>
+
+        <!-- 08 -->
+        <div class="bg-sigan-cream rounded-2xl p-5 sm:p-6 border border-slate-200 shadow-sm flex flex-col justify-between hover:border-sigan-green transition group">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-black text-sigan-green bg-emerald-100 px-2.5 py-1 rounded-lg">PREMIUM 08</span>
+              <i data-lucide="award" class="w-5 h-5 text-sigan-green"></i>
+            </div>
+            <h3 class="text-base sm:text-lg font-black text-slate-900 mb-1.5" data-editable>신도시 미래가치 선점</h3>
+            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed" data-editable>
+              3기 신도시 계양테크노밸리에서 최초로 선보이는 랜드마크 상업시설로 가장 높은 초기 시세차익 기대.
+            </p>
+          </div>
+          <div class="mt-4 pt-2.5 border-t border-slate-200 text-xs font-bold text-sigan-green">첫 분양 선점 효과</div>
+        </div>
+
+      </div>
+
+      <div class="add-image-box mt-6 border-2 border-dashed border-emerald-400 bg-emerald-50/70 rounded-2xl p-6 text-center flex flex-col items-center justify-center cursor-pointer hover:bg-emerald-100/70 transition" onclick="openAddImageModal('gallery-premium')">
+        <i data-lucide="image-plus" class="w-8 h-8 text-emerald-600 mb-2"></i>
+        <span class="text-sm font-bold text-emerald-900">이곳에 프리미엄 관련 이미지 추가하기</span>
+      </div>
+      <div id="gallery-premium" class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6"></div>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== SECTION: OFFICIAL OVERVIEW (공식 건축개요 및 면적표) ==================== -->
+  <section id="sec-overview" class="content-section py-14 sm:py-20 bg-sigan-cream">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+        <span class="text-xs sm:text-sm font-bold text-sigan-green uppercase tracking-widest" data-editable>ARCHITECTURAL OVERVIEW</span>
+        <h2 class="text-xl sm:text-3xl font-black text-slate-900 mt-1" data-editable>상업시설 공식 개요</h2>
+        <div class="w-12 h-1 bg-sigan-green mx-auto mt-2.5"></div>
+        <p class="text-slate-600 text-xs sm:text-sm mt-2.5" data-editable>
+          지상 1~2층, 연면적 7,471평 규모로 조성되는 계양신도시 내 매머드급 주상복합 상업시설입니다.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <div class="lg:col-span-5 bg-sigan-green text-white rounded-3xl p-6 sm:p-8 shadow-xl space-y-6">
+          <div class="border-b border-white/20 pb-4">
+            <span class="text-xs text-sigan-gold font-bold tracking-wider uppercase" data-editable>COMMERCIAL SCALE</span>
+            <h3 class="text-xl sm:text-3xl font-black mt-1" data-editable>총 203실 대단지 상가</h3>
+            <p class="text-xs sm:text-sm text-slate-300 mt-1" data-editable>일반분양 154실 / 마스터리스 45실 / 직영몰 4실</p>
+          </div>
+
+          <div class="space-y-3.5 text-xs sm:text-sm">
+            <div class="flex justify-between items-center py-1.5 border-b border-white/10">
+              <span class="text-slate-300 font-medium">연면적 합계</span>
+              <span class="font-bold text-sigan-gold text-sm sm:text-base" data-editable>24,699.45㎡ (7,471.59평)</span>
+            </div>
+            <div class="flex justify-between items-center py-1.5 border-b border-white/10">
+              <span class="text-slate-300 font-medium">전용면적 합계</span>
+              <span class="font-bold text-white text-sm sm:text-base" data-editable>9,689.47㎡ (2,931.07평)</span>
+            </div>
+            <div class="flex justify-between items-center py-1.5 border-b border-white/10">
+              <span class="text-slate-300 font-medium">전체 전용률 평균</span>
+              <span class="font-bold text-sigan-gold text-sm sm:text-base" data-editable>39.23%</span>
+            </div>
+            <div class="flex justify-between items-center py-1.5 border-b border-white/10">
+              <span class="text-slate-300 font-medium">상가 주차대수</span>
+              <span class="font-bold text-white text-sm sm:text-base" data-editable>총 169대 (3BL: 93대, 4BL: 76대)</span>
+            </div>
+            <div class="flex justify-between items-center py-1.5">
+              <span class="text-slate-300 font-medium">준공 / 입점예정</span>
+              <span class="font-bold text-sigan-gold text-sm sm:text-base" data-editable>2029년 07월 준공 / 08월 입점</span>
+            </div>
+          </div>
+
+          <div class="bg-black/30 p-4 rounded-2xl border border-white/10 text-xs sm:text-sm leading-relaxed text-slate-300">
+            <strong class="text-white">시공사:</strong> <span data-editable>반도건설(주) (대한민국 명품 아파트 유보라·KAIVE)</span><br>
+            <strong class="text-white">사업명:</strong> <span data-editable>인천계양 공공주택지구 AC3BL · AC4BL 주상복합 근린생활시설</span>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-sm">
+          <div class="flex items-center justify-between pb-3.5 border-b border-slate-200 mb-4">
+            <h4 class="font-bold text-slate-900 text-base sm:text-lg" data-editable>3블록 & 4블록 상세 면적 현황표</h4>
+            <span class="text-xs text-slate-500">단위: ㎡, 평(PY)</span>
+          </div>
+
+          <div class="overflow-x-auto -mx-2 sm:mx-0">
+            <table class="w-full text-left text-xs sm:text-sm border-collapse min-w-[340px]">
+              <thead>
+                <tr class="bg-slate-50 text-slate-700 border-b border-slate-200 font-bold">
+                  <th class="py-2.5 px-3">구분</th>
+                  <th class="py-2.5 px-2 text-center">층</th>
+                  <th class="py-2.5 px-2 text-center">호실</th>
+                  <th class="py-2.5 px-3 text-right">전용(PY)</th>
+                  <th class="py-2.5 px-3 text-right">계약(PY)</th>
+                  <th class="py-2.5 px-2 text-right">전용률</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-slate-100 text-slate-800">
+                <tr>
+                  <td rowspan="3" class="py-3 px-3 font-bold text-sigan-green bg-slate-50/50 border-r border-slate-100">
+                    <span data-editable>AC3BL (총 112실)</span>
+                  </td>
+                  <td class="py-2.5 px-2 text-center font-bold">1F</td>
+                  <td class="py-2.5 px-2 text-center" data-editable>69실</td>
+                  <td class="py-2.5 px-3 text-right" data-editable>1,008.28평</td>
+                  <td class="py-2.5 px-3 text-right" data-editable>2,416.71평</td>
+                  <td rowspan="2" class="py-2.5 px-2 text-right font-bold text-slate-700 bg-slate-50/30" data-editable>40.79%</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5 px-2 text-center font-bold">2F</td>
+                  <td class="py-2.5 px-2 text-center" data-editable>43실</td>
+                  <td class="py-2.5 px-3 text-right" data-editable>687.16평</td>
+                  <td class="py-2.5 px-3 text-right" data-editable>1,740.05평</td>
+                </tr>
+                <tr class="bg-emerald-50/50 font-bold text-sigan-green">
+                  <td colspan="2" class="py-2 px-2 text-center">3BL 소계 (112실)</td>
+                  <td class="py-2 px-3 text-right" data-editable>1,695.44평</td>
+                  <td class="py-2 px-3 text-right" data-editable>4,156.76평</td>
+                  <td class="py-2 px-2 text-right" data-editable>40.79%</td>
+                </tr>
+
+                <tr>
+                  <td rowspan="3" class="py-3 px-3 font-bold text-sigan-green bg-slate-50/50 border-r border-slate-100">
+                    <span data-editable>AC4BL (총 91실)</span>
+                  </td>
+                  <td class="py-2.5 px-2 text-center font-bold">1F</td>
+                  <td class="py-2.5 px-2 text-center" data-editable>56실</td>
+                  <td class="py-2.5 px-3 text-right" data-editable>777.56평</td>
+                  <td class="py-2.5 px-3 text-right" data-editable>2,085.97평</td>
+                  <td rowspan="2" class="py-2.5 px-2 text-right font-bold text-slate-700 bg-slate-50/30" data-editable>37.28%</td>
+                </tr>
+                <tr>
+                  <td class="py-2.5 px-2 text-center font-bold">2F</td>
+                  <td class="py-2.5 px-2 text-center" data-editable>35실</td>
+                  <td class="py-2.5 px-3 text-right" data-editable>458.07평</td>
+                  <td class="py-2.5 px-3 text-right" data-editable>1,228.86평</td>
+                </tr>
+                <tr class="bg-emerald-50/50 font-bold text-sigan-green">
+                  <td colspan="2" class="py-2 px-2 text-center">4BL 소계 (91실)</td>
+                  <td class="py-2 px-3 text-right" data-editable>1,235.63평</td>
+                  <td class="py-2 px-3 text-right" data-editable>3,314.83평</td>
+                  <td class="py-2 px-2 text-right" data-editable>37.28%</td>
+                </tr>
+
+                <tr class="bg-sigan-cream font-bold text-slate-900 border-t-2 border-slate-300">
+                  <td colspan="3" class="py-3 px-3 text-center text-sigan-green font-black text-sm sm:text-base">총 203실 합계</td>
+                  <td class="py-3 px-3 text-right font-extrabold text-slate-900" data-editable>2,931.07평</td>
+                  <td class="py-3 px-3 text-right font-extrabold text-slate-900" data-editable>7,471.59평</td>
+                  <td class="py-3 px-2 text-right font-black text-sigan-green" data-editable>39.23%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p class="text-xs text-slate-500 mt-3.5 leading-relaxed" data-editable>
+            ※ 총 203실 중 금회 분양 199실 (3블록 108실 + 직영몰 4실 포함 / 4블록 91실)
+          </p>
+        </div>
+      </div>
+
+      <!-- Wix 사진 추가 박스 -->
+      <div class="add-image-box mt-6 border-2 border-dashed border-emerald-400 bg-emerald-50/70 rounded-2xl p-6 text-center flex flex-col items-center justify-center cursor-pointer hover:bg-emerald-100/70 transition" onclick="openAddImageModal('gallery-overview')">
+        <i data-lucide="image-plus" class="w-8 h-8 text-emerald-600 mb-2"></i>
+        <span class="text-sm font-bold text-emerald-900">이곳에 새 조감도 / 현장 사진 추가하기</span>
+        <span class="text-xs text-emerald-700 mt-0.5">클릭하면 내 컴퓨터에서 사진을 선택하여 갤러리에 추가됩니다. (Wix 편집 모드 전용)</span>
+      </div>
+
+      <!-- 개요 갤러리 컨테이너 -->
+      <div id="gallery-overview" class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6"></div>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== SECTION: 3BL & 4BL FLOOR MD (층별 MD & 에스컬레이터 특화) ==================== -->
+  <section id="sec-blocks" class="content-section py-14 sm:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+        <span class="text-xs sm:text-sm font-bold text-sigan-green uppercase tracking-widest" data-editable>FLOOR MD PLAN</span>
+        <h2 class="text-xl sm:text-3xl font-black text-slate-900 mt-1" data-editable>3블록 & 4블록 블록별 층별 MD 구성</h2>
+        <div class="w-12 h-1 bg-sigan-green mx-auto mt-2.5"></div>
+        <p class="text-slate-600 text-xs sm:text-sm mt-2.5" data-editable>
+          3블록 [에듀 & 라이프]와 4블록 [메디컬 & 웰니스]의 시너지. <strong>지상 2층 에스컬레이터 연계</strong>로 상층부 집객력 극대화!
+        </p>
+
+        <!-- 블록 탭 스위처 -->
+        <div class="flex w-full sm:inline-flex p-1 sm:p-1.5 bg-slate-100 rounded-xl mt-6 border border-slate-200 max-w-md mx-auto">
+          <button onclick="switchBlock('3BL')" id="tabBtn-3BL" class="tab-btn flex-1 px-3 sm:px-6 py-2.5 rounded-lg text-xs sm:text-sm font-black bg-sigan-green text-white shadow-sm transition">
+            <span data-editable>3블록 (에듀·라이프 특화)</span>
+          </button>
+          <button onclick="switchBlock('4BL')" id="tabBtn-4BL" class="tab-btn flex-1 px-3 sm:px-6 py-2.5 rounded-lg text-xs sm:text-sm font-black text-slate-600 hover:text-sigan-green transition">
+            <span data-editable>4블록 (메디컬·웰니스 특화)</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 3블록 상세: 폰트 확대 & 수직 칼정렬 -->
+      <div id="content-3BL" class="block-content space-y-6">
+        <div class="bg-sigan-cream rounded-2xl sm:rounded-3xl p-4 sm:p-8 border border-slate-200 shadow-sm">
+          
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center pb-4 border-b border-slate-300 gap-2 sm:gap-3">
+            <div>
+              <span class="inline-block text-[11px] sm:text-sm font-bold text-sigan-green bg-emerald-100 px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full mb-1" data-editable>
+                3블록 테마: 배움과 생활의 시간
+              </span>
+              <h3 class="text-lg sm:text-2xl lg:text-3xl font-black text-slate-900 leading-snug tracking-tight" data-editable>
+                단지 앞 초1·중1 연계 <span class="text-sigan-green">[에듀 & 라이프 특화 구성]</span>
+              </h3>
+            </div>
+            <div class="text-left sm:text-right pt-0.5 sm:pt-0">
+              <span class="text-xs sm:text-sm text-slate-600 block font-semibold" data-editable>1F 69실 / 2F 43실 (총 112실)</span>
+              <p class="text-xs sm:text-base font-black text-sigan-green mt-0.5" data-editable>전용 1,695평 (전용률 40.79%)</p>
+            </div>
+          </div>
+
+          <!-- 카드 리스트: 고정 뱃지 컬럼(86px/125px)으로 모바일/PC 수직 칼정렬 -->
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 mt-5 sm:mt-6">
+            
+            <!-- 3블록 1층 -->
+            <div class="bg-white rounded-2xl p-4 sm:p-6 border border-slate-200 shadow-sm hover:border-sigan-green/50 transition">
+              <div class="flex items-center justify-between mb-3 pb-2.5 border-b border-slate-200">
+                <span class="font-black text-slate-900 text-sm sm:text-lg flex items-center" data-editable>
+                  <span class="w-2.5 h-2.5 rounded-full bg-sigan-green mr-2"></span>
+                  3블록 1층 (지상 1F)
+                </span>
+                <span class="text-xs sm:text-sm bg-slate-100 text-slate-800 px-2.5 py-0.5 rounded-lg font-black" data-editable>69실</span>
+              </div>
+              
+              <div class="space-y-2.5 sm:space-y-3">
+                <div class="grid grid-cols-[86px_1fr] sm:grid-cols-[125px_1fr] items-center gap-2 sm:gap-3.5 py-2 sm:py-2.5 border-b border-slate-100">
+                  <span class="inline-flex items-center justify-center bg-emerald-100 text-sigan-green text-[11px] sm:text-sm font-extrabold py-1 sm:py-1.5 px-1 rounded-lg text-center" data-editable>
+                    직영몰 (77평)
+                  </span>
+                  <p class="text-xs sm:text-sm text-slate-800 leading-snug font-medium break-keep" data-editable>
+                    <strong>반도건설 직영 베이커리 카페</strong> 유치 (앵커테넌트)
+                  </p>
+                </div>
+
+                <div class="grid grid-cols-[86px_1fr] sm:grid-cols-[125px_1fr] items-center gap-2 sm:gap-3.5 py-2 sm:py-2.5 border-b border-slate-100">
+                  <span class="inline-flex items-center justify-center bg-amber-100 text-amber-900 text-[11px] sm:text-sm font-extrabold py-1 sm:py-1.5 px-1 rounded-lg text-center" data-editable>
+                    마스터리스 (24실)
+                  </span>
+                  <p class="text-xs sm:text-sm text-slate-800 leading-snug font-medium break-keep" data-editable>
+                    올리브영형 라이프샵, 대형 북카페, 프랜차이즈 F&B
+                  </p>
+                </div>
+
+                <div class="grid grid-cols-[86px_1fr] sm:grid-cols-[125px_1fr] items-center gap-2 sm:gap-3.5 py-2 sm:py-2.5">
+                  <span class="inline-flex items-center justify-center bg-slate-100 text-slate-800 text-[11px] sm:text-sm font-extrabold py-1 sm:py-1.5 px-1 rounded-lg text-center" data-editable>
+                    일반분양
+                  </span>
+                  <p class="text-xs sm:text-sm text-slate-800 leading-snug font-medium break-keep" data-editable>
+                    대형 편의점, SSM 마트, 브런치카페, 약국, 베이커리
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3블록 2층 -->
+            <div class="bg-white rounded-2xl p-4 sm:p-6 border border-slate-200 shadow-sm hover:border-sigan-green/50 transition">
+              <div class="flex items-center justify-between mb-3 pb-2.5 border-b border-slate-200">
+                <span class="font-black text-slate-900 text-sm sm:text-lg flex items-center" data-editable>
+                  <span class="w-2.5 h-2.5 rounded-full bg-sigan-green mr-2"></span>
+                  3블록 2층 (지상 2F)
+                </span>
+                <span class="text-xs sm:text-sm bg-slate-100 text-slate-800 px-2.5 py-0.5 rounded-lg font-black" data-editable>43실</span>
+              </div>
+              
+              <div class="space-y-2.5 sm:space-y-3">
+                <div class="grid grid-cols-[86px_1fr] sm:grid-cols-[125px_1fr] items-center gap-2 sm:gap-3.5 py-2 sm:py-2.5 border-b border-slate-100">
+                  <span class="inline-flex items-center justify-center bg-emerald-100 text-sigan-green text-[11px] sm:text-sm font-extrabold py-1 sm:py-1.5 px-1 rounded-lg text-center" data-editable>
+                    직영몰 (55평)
+                  </span>
+                  <p class="text-xs sm:text-sm text-slate-800 leading-snug font-medium break-keep" data-editable>
+                    <strong>애견카페, 동물병원, 펫 웰니스</strong> 케어센터
+                  </p>
+                </div>
+
+                <div class="grid grid-cols-[86px_1fr] sm:grid-cols-[125px_1fr] items-center gap-2 sm:gap-3.5 py-2 sm:py-2.5 border-b border-slate-100">
+                  <span class="inline-flex items-center justify-center bg-blue-100 text-blue-900 text-[11px] sm:text-sm font-extrabold py-1 sm:py-1.5 px-1 rounded-lg text-center" data-editable>
+                    에듀 특화존
+                  </span>
+                  <p class="text-xs sm:text-sm text-slate-800 leading-snug font-medium break-keep" data-editable>
+                    국/영/수 전문 보습학원, 성인어학원, 코딩, 스터디카페
+                  </p>
+                </div>
+
+                <div class="grid grid-cols-[86px_1fr] sm:grid-cols-[125px_1fr] items-center gap-2 sm:gap-3.5 py-2 sm:py-2.5">
+                  <span class="inline-flex items-center justify-center bg-slate-100 text-slate-800 text-[11px] sm:text-sm font-extrabold py-1 sm:py-1.5 px-1 rounded-lg text-center" data-editable>
+                    예체능 & 생활
+                  </span>
+                  <p class="text-xs sm:text-sm text-slate-800 leading-snug font-medium break-keep" data-editable>
+                    태권도, 발레, 음악/미술학원, 1인 PT샵, 네일샵, 금융
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4블록 상세 -->
+      <div id="content-4BL" class="block-content hidden space-y-6">
+        <div class="bg-sigan-cream rounded-2xl sm:rounded-3xl p-4 sm:p-8 border border-slate-200 shadow-sm">
+          
+          <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center pb-4 border-b border-slate-300 gap-2 sm:gap-3">
+            <div>
+              <span class="inline-block text-[11px] sm:text-sm font-bold text-sigan-green bg-emerald-100 px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full mb-1" data-editable>
+                4블록 테마: 건강과 미식의 시간
+              </span>
+              <h3 class="text-lg sm:text-2xl lg:text-3xl font-black text-slate-900 leading-snug tracking-tight" data-editable>
+                문화공원 연계 <span class="text-sigan-green">[메디컬 & 웰니스 특화 구성]</span>
+              </h3>
+            </div>
+            <div class="text-left sm:text-right pt-0.5 sm:pt-0">
+              <span class="text-xs sm:text-sm text-slate-600 block font-semibold" data-editable>1F 56실 / 2F 35실 (총 91실)</span>
+              <p class="text-xs sm:text-base font-black text-sigan-green mt-0.5" data-editable>전용 1,235평 (전용률 37.28%)</p>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5 mt-5 sm:mt-6">
+            <!-- 4블록 1층 -->
+            <div class="bg-white rounded-2xl p-4 sm:p-6 border border-slate-200 shadow-sm hover:border-sigan-green/50 transition">
+              <div class="flex items-center justify-between mb-3 pb-2.5 border-b border-slate-200">
+                <span class="font-black text-slate-900 text-sm sm:text-lg flex items-center" data-editable>
+                  <span class="w-2.5 h-2.5 rounded-full bg-sigan-green mr-2"></span>
+                  4블록 1층 (지상 1F)
+                </span>
+                <span class="text-xs sm:text-sm bg-slate-100 text-slate-800 px-2.5 py-0.5 rounded-lg font-black" data-editable>56실</span>
+              </div>
+              
+              <div class="space-y-2.5 sm:space-y-3">
+                <div class="grid grid-cols-[86px_1fr] sm:grid-cols-[125px_1fr] items-center gap-2 sm:gap-3.5 py-2 sm:py-2.5 border-b border-slate-100">
+                  <span class="inline-flex items-center justify-center bg-amber-100 text-amber-900 text-[11px] sm:text-sm font-extrabold py-1 sm:py-1.5 px-1 rounded-lg text-center" data-editable>
+                    마스터리스 (21실)
+                  </span>
+                  <p class="text-xs sm:text-sm text-slate-800 leading-snug font-medium break-keep" data-editable>
+                    다이닝, 패스트푸드, 브런치카페, 프리미엄 디저트
+                  </p>
+                </div>
+
+                <div class="grid grid-cols-[86px_1fr] sm:grid-cols-[125px_1fr] items-center gap-2 sm:gap-3.5 py-2 sm:py-2.5">
+                  <span class="inline-flex items-center justify-center bg-slate-100 text-slate-800 text-[11px] sm:text-sm font-extrabold py-1 sm:py-1.5 px-1 rounded-lg text-center" data-editable>
+                    일반분양
+                  </span>
+                  <p class="text-xs sm:text-sm text-slate-800 leading-snug font-medium break-keep" data-editable>
+                    치킨/피자, 일반음식점, 부동산, 세탁소, 뷰티살롱
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 4블록 2층 -->
+            <div class="bg-white rounded-2xl p-4 sm:p-6 border border-slate-200 shadow-sm hover:border-sigan-green/50 transition">
+              <div class="flex items-center justify-between mb-3 pb-2.5 border-b border-slate-200">
+                <span class="font-black text-slate-900 text-sm sm:text-lg flex items-center" data-editable>
+                  <span class="w-2.5 h-2.5 rounded-full bg-sigan-green mr-2"></span>
+                  4블록 2층 (지상 2F)
+                </span>
+                <span class="text-xs sm:text-sm bg-slate-100 text-slate-800 px-2.5 py-0.5 rounded-lg font-black" data-editable>35실</span>
+              </div>
+              
+              <div class="space-y-2.5 sm:space-y-3">
+                <div class="grid grid-cols-[86px_1fr] sm:grid-cols-[125px_1fr] items-center gap-2 sm:gap-3.5 py-2 sm:py-2.5 border-b border-slate-100">
+                  <span class="inline-flex items-center justify-center bg-teal-100 text-teal-900 text-[11px] sm:text-sm font-extrabold py-1 sm:py-1.5 px-1 rounded-lg text-center" data-editable>
+                    메디컬 특화존
+                  </span>
+                  <p class="text-xs sm:text-sm text-slate-800 leading-snug font-medium break-keep" data-editable>
+                    <strong>내과, 이비인후과, 소아과, 치과, 한의원, 대형약국</strong>
+                  </p>
+                </div>
+
+                <div class="grid grid-cols-[86px_1fr] sm:grid-cols-[125px_1fr] items-center gap-2 sm:gap-3.5 py-2 sm:py-2.5">
+                  <span class="inline-flex items-center justify-center bg-slate-100 text-slate-800 text-[11px] sm:text-sm font-extrabold py-1 sm:py-1.5 px-1 rounded-lg text-center" data-editable>
+                    라이프 케어
+                  </span>
+                  <p class="text-xs sm:text-sm text-slate-800 leading-snug font-medium break-keep" data-editable>
+                    에스테틱, 필라테스, 뷰티 클리닉, 건강검진 연계
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wix 사진 추가 박스 -->
+      <div class="add-image-box mt-6 border-2 border-dashed border-emerald-400 bg-emerald-50/70 rounded-2xl p-6 text-center flex flex-col items-center justify-center cursor-pointer hover:bg-emerald-100/70 transition" onclick="openAddImageModal('gallery-blocks')">
+        <i data-lucide="image-plus" class="w-8 h-8 text-emerald-600 mb-2"></i>
+        <span class="text-sm font-bold text-emerald-900">이곳에 3블록·4블록 도면 / 배치도 사진 추가하기</span>
+        <span class="text-xs text-emerald-700 mt-0.5">클릭하면 내 컴퓨터에서 사진을 선택하여 배치도 갤러리에 추가됩니다. (Wix 편집 모드 전용)</span>
+      </div>
+
+      <!-- 블록 갤러리 컨테이너 -->
+      <div id="gallery-blocks" class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6"></div>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== SECTION: LOCATION & DIRECTIONS (공식 입지환경 6대 강점 & 고시 근거 표기) ==================== -->
+  <section id="sec-location" class="content-section py-14 sm:py-20 bg-sigan-cream border-t border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-14">
+        <span class="text-xs sm:text-sm font-bold text-sigan-green uppercase tracking-widest" data-editable>LOCATION & ENVIRONMENT</span>
+        <h2 class="text-xl sm:text-3xl font-black text-slate-900 mt-1" data-editable>입지환경 & 견본주택 오시는 길</h2>
+        <div class="w-12 h-1 bg-sigan-green mx-auto mt-2.5"></div>
+        <p class="text-slate-600 text-xs sm:text-sm mt-2.5">
+          교통, 공원, 산단, 주거를 모두 품은 계양신도시 최중심지. <span class="font-bold text-sigan-green" data-editable>100% 사전 예약제</span> 운영
+        </p>
+      </div>
+
+      <!-- 공식 법적 고시 근거 배너 -->
+      <div class="mb-8 p-4 bg-white rounded-2xl border border-slate-200 shadow-sm text-xs text-slate-600 space-y-1">
+        <div class="font-bold text-slate-800 flex items-center text-xs sm:text-sm">
+          <i data-lucide="file-check-2" class="w-4 h-4 mr-1.5 text-sigan-green"></i>
+          공식 정부 및 지자체 개발계획 고시 근거
+        </div>
+        <p>• <strong>계양신도시 개발계획:</strong> 국토교통부고시 제2026-473호(2026.09.09) 기준</p>
+        <p>• <strong>대장~홍대선 연장 추진:</strong> 국토교통부고시 제2025-493호(2025.09.26) 광역교통개선대책 추진</p>
+        <p>• <strong>도로 확장:</strong> 경명대로 확장(인천시 고시 제2023-93호) 및 벌말로 확장(서울 강서구 고시 제2025-26호)</p>
+      </div>
+
+      <!-- [공식 광역 입지도 (광역도)] -->
+      <div class="mb-10 bg-white rounded-3xl p-5 sm:p-8 border border-slate-200 shadow-md">
+        <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center pb-4 border-b border-slate-200 gap-2 mb-5">
+          <div>
+            <div class="flex items-center space-x-2">
+              <span class="px-2.5 py-1 rounded-md bg-emerald-100 text-sigan-green font-extrabold text-xs">OFFICIAL MAP</span>
+              <h3 class="text-lg sm:text-2xl font-black text-slate-900" data-editable>계양신도시 AC3BL · AC4BL 공식 광역 입지도</h3>
+            </div>
+            <p class="text-xs sm:text-sm text-slate-500 mt-1" data-editable>
+              계양테크노밸리 첨단산단(AX파크) · 대장홍대선 · 인천1호선 박촌역 · 1km 수변공원 인접 광역 교통망
+            </p>
+          </div>
+          <div class="flex items-center space-x-2">
+            <button onclick="openMapZoomModal('images/main_environment_map.jpg')" class="px-4 py-2 bg-sigan-green hover:bg-sigan-greenLight text-white rounded-xl text-xs sm:text-sm font-bold flex items-center shadow-sm transition">
+              <i data-lucide="zoom-in" class="w-4 h-4 mr-1.5 text-sigan-gold"></i>
+              광역도 크게 보기
+            </button>
+          </div>
+        </div>
+
+        <div class="relative w-full rounded-2xl overflow-hidden border border-slate-100 bg-slate-50 shadow-inner group">
+          <img 
+            src="images/main_environment_map.jpg" 
+            alt="인천계양 시간 공식 광역 입지도" 
+            class="w-full h-auto object-contain cursor-pointer transition duration-300 group-hover:scale-[1.01]" 
+            onclick="openMapZoomModal('images/main_environment_map.jpg')"
+            data-editable-img
+            title="클릭하면 고화질 원본으로 확대됩니다"
+          />
+          <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-sm text-white px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center pointer-events-none">
+            <i data-lucide="maximize-2" class="w-3.5 h-3.5 mr-1 text-sigan-gold"></i>
+            클릭하여 고화질 확대
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-stretch">
+        <div class="lg:col-span-7 bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-sm flex flex-col justify-between">
+          <div class="relative w-full h-[320px] sm:h-[420px] bg-slate-100">
+            <!-- Google Maps Embed Iframe -->
+            <iframe 
+              id="googleMapFrame"
+              src="https://maps.google.com/maps?q=%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EB%B6%80%EC%B2%9C%EC%8B%9C%20%EC%9B%90%EB%AF%B8%EA%B5%AC%20%EB%8F%84%EB%8B%B9%EB%8F%99%20222-46&t=&z=16&ie=UTF8&iwloc=&output=embed"
+              class="w-full h-full border-0"
+              loading="lazy"
+              allowfullscreen
+              referrerpolicy="no-referrer-when-downgrade"
+              title="견본주택 구글 지도">
+            </iframe>
+            
+            <!-- 상단 위치 뱃지 -->
+            <div class="absolute top-3 left-3 bg-sigan-green/95 backdrop-blur-md text-white px-3.5 py-1.5 rounded-xl text-xs sm:text-sm font-bold shadow flex items-center pointer-events-none">
+              <i data-lucide="map-pin" class="w-3.5 h-3.5 mr-1 text-sigan-gold"></i>
+              <span data-editable>견본주택: 경기도 부천시 원미구 도당동 222-46</span>
+            </div>
+
+            <!-- 지도 새창 열기 / 길찾기 버튼 -->
+            <a 
+              href="https://www.google.com/maps/search/?api=1&query=%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EB%B6%80%EC%B2%9C%EC%8B%9C%20%EC%9B%90%EB%AF%B8%EA%B5%AC%20%EB%8F%84%EB%8B%B9%EB%8F%99%20222-46" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="absolute bottom-3 right-3 bg-white/95 hover:bg-white text-slate-800 px-3 py-1.5 rounded-lg text-xs font-bold shadow border border-slate-200 flex items-center transition">
+              <i data-lucide="external-link" class="w-3.5 h-3.5 mr-1 text-emerald-600"></i>
+              구글 지도 길찾기
+            </a>
+          </div>
+
+          <div class="p-4 sm:p-6 bg-slate-50 border-t border-slate-200 flex flex-col sm:flex-row justify-between items-center gap-3">
+            <div class="text-center sm:text-left">
+              <span class="text-xs text-slate-500 font-semibold block">네비게이션 주소</span>
+              <p class="text-xs sm:text-sm font-bold text-slate-900 mt-0.5" id="targetAddressText" data-editable>경기도 부천시 원미구 도당동 222-46</p>
+            </div>
+            <button onclick="copyAddress(document.getElementById('targetAddressText').innerText)" class="w-full sm:w-auto px-5 py-2.5 bg-white hover:bg-slate-100 border border-slate-300 rounded-xl text-xs sm:text-sm font-bold text-slate-800 transition flex items-center justify-center shadow-sm">
+              <i data-lucide="copy" class="w-3.5 h-3.5 mr-1.5 text-slate-500"></i>
+              주소 복사
+            </button>
+          </div>
+        </div>
+
+        <div class="lg:col-span-5 flex flex-col justify-between space-y-4 sm:space-y-6">
+          <div class="bg-white rounded-3xl p-6 sm:p-7 border border-slate-200 shadow-sm space-y-4">
+            <h3 class="font-bold text-slate-900 text-base sm:text-lg flex items-center">
+              <i data-lucide="building-2" class="w-4 h-4 text-sigan-green mr-2"></i>
+              <span data-editable>현장 및 홍보관 상세 안내</span>
+            </h3>
+
+            <div class="p-4 bg-sigan-cream rounded-2xl border border-slate-200">
+              <span class="text-xs font-bold text-sigan-green block mb-1">■ 견본주택 (모델하우스)</span>
+              <p class="font-bold text-slate-900 text-xs sm:text-sm" data-editable>경기도 부천시 원미구 도당동 222-46</p>
+              <p class="text-xs text-slate-500 mt-1" data-editable>※ 공식 홍보관: 서울특별시 양천구 신월동 537-1 외</p>
+              <p class="text-xs text-emerald-700 mt-0.5 font-semibold" data-editable>※ 주차 완비 (방문 예약 고객 전용 주차권 증정)</p>
+            </div>
+
+            <div class="p-4 bg-slate-50 rounded-2xl border border-slate-200">
+              <span class="text-xs font-bold text-slate-700 block mb-1">■ 사업 현장 주소</span>
+              <p class="text-xs sm:text-sm text-slate-800 leading-relaxed" data-editable>
+                · AC3블록: 인천광역시 계양구 동양동 458-3번지 일원<br>
+                · AC4블록: 인천광역시 계양구 동양동 420-3번지(461번지) 일원
+              </p>
+            </div>
+
+            <div class="p-3.5 bg-emerald-50 rounded-2xl border border-emerald-200 text-xs text-emerald-800 leading-relaxed" data-editable>
+              <strong>관람 시간:</strong> 오전 10:00 ~ 오후 18:00 (연중무휴)<br>
+              ※ 주말에는 방문 고객이 집중되오니 온라인 사전 예약을 권장합니다.
+            </div>
+          </div>
+
+          <div class="bg-sigan-green rounded-3xl p-6 text-white text-center shadow-xl">
+            <span class="text-xs font-bold text-sigan-gold uppercase tracking-widest" data-editable>OFFICIAL CALL CENTER</span>
+            <p class="text-sm sm:text-base font-bold mt-1" data-editable>분양가 및 잔여호실 1:1 직통 문의</p>
+            <a href="tel:1800-0320" class="text-3xl sm:text-4xl font-black text-sigan-gold hover:text-white transition tracking-wider block my-2">
+              1800-0320
+            </a>
+            <p class="text-xs text-slate-300" data-editable>스마트폰에서 번호 터치 시 바로 통화 연결됩니다.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="add-image-box mt-6 border-2 border-dashed border-emerald-400 bg-emerald-50/70 rounded-2xl p-6 text-center flex flex-col items-center justify-center cursor-pointer hover:bg-emerald-100/70 transition" onclick="openAddImageModal('gallery-location')">
+        <i data-lucide="image-plus" class="w-8 h-8 text-emerald-600 mb-2"></i>
+        <span class="text-sm font-bold text-emerald-900">이곳에 약도 및 현장 오시는 길 사진 추가하기</span>
+      </div>
+      <div id="gallery-location" class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6"></div>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== SECTION: VIP CONSULTATION FORM ==================== -->
+  <section id="sec-inquiry" class="content-section py-14 sm:py-20 bg-sigan-green text-white relative">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-xl mx-auto mb-8 sm:mb-14">
+        <span class="text-xs sm:text-sm font-bold text-sigan-gold uppercase tracking-widest" data-editable>VIP RESERVATION</span>
+        <h2 class="text-xl sm:text-3xl lg:text-4xl font-black mt-1 tracking-tight" data-editable>VIP 관심고객 등록 및 모델하우스 방문예약</h2>
+        <div class="w-12 h-1 bg-sigan-gold mx-auto mt-2.5"></div>
+        <p class="text-slate-200 text-xs sm:text-sm mt-2.5 break-keep" data-editable>
+          등록 즉시 전문 상담원이 배정되어 상가 배치도, MD 구성표, 호실별 분양가 자료를 우선 발송해 드립니다.
+        </p>
+      </div>
+
+      <!-- 구글 시트 실시간 자동 전송 폼 -->
+      <div class="bg-white rounded-2xl sm:rounded-3xl p-5 sm:p-9 text-slate-900 shadow-2xl border border-sigan-gold/40">
+        <form onsubmit="handleMainSubmit(event)" class="space-y-3.5 sm:space-y-5">
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+            <div>
+              <label class="block text-xs sm:text-sm font-bold text-slate-700 mb-1">고객 성함 <span class="text-sigan-accentRed">*</span></label>
+              <input type="text" id="mainName" required placeholder="성함을 입력하세요 (예: 홍길동)" class="w-full bg-slate-50 border border-slate-300 focus:border-sigan-green focus:bg-white text-slate-900 text-xs sm:text-sm rounded-xl px-3.5 py-2.5 sm:px-4 sm:py-3 outline-none transition" />
+            </div>
+            <div>
+              <label class="block text-xs sm:text-sm font-bold text-slate-700 mb-1">휴대폰 번호 <span class="text-sigan-accentRed">*</span></label>
+              <input type="tel" id="mainPhone" required placeholder="010-1234-5678" class="w-full bg-slate-50 border border-slate-300 focus:border-sigan-green focus:bg-white text-slate-900 text-xs sm:text-sm rounded-xl px-3.5 py-2.5 sm:px-4 sm:py-3 outline-none transition" />
+            </div>
+          </div>
+
+          <!-- 관심 구분 (선택사항) -->
+          <div>
+            <label class="block text-xs sm:text-sm font-bold text-slate-700 mb-1">
+              관심 구분 <span class="text-slate-400 font-normal">(선택사항 - 미선택 시 종합상담)</span>
+            </label>
+            <select id="mainBlock" class="w-full bg-slate-50 border border-slate-300 focus:border-sigan-green text-slate-800 text-xs sm:text-sm rounded-xl px-3.5 py-2.5 sm:px-4 sm:py-3 outline-none transition">
+              <option value="전체상담">선택안함 (전체 호실 및 분양가 상담)</option>
+              <option value="마스터리스">마스터리스 (5년 6% 확정수익 보장 호실)</option>
+              <option value="3블록(에듀특화)">AC3블록 (학원·에듀·식음 특화존)</option>
+              <option value="4블록(메디컬특화)">AC4블록 (병원·약국·클리닉 특화존)</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs sm:text-sm font-bold text-slate-700 mb-1">
+              추가 문의사항 <span class="text-slate-400 font-normal">(선택)</span>
+            </label>
+            <textarea id="mainMemo" rows="3" placeholder="궁금하신 내용이나 희망 상담시간대를 자유롭게 남겨주세요." class="w-full bg-slate-50 border border-slate-300 focus:border-sigan-green focus:bg-white text-slate-900 text-xs sm:text-sm rounded-xl px-3.5 py-2.5 sm:px-4 sm:py-3 outline-none resize-none transition"></textarea>
+          </div>
+
+          <button type="submit" class="w-full py-3.5 sm:py-4 rounded-xl bg-sigan-green text-white font-bold text-sm sm:text-base hover:bg-sigan-greenLight active:scale-[0.99] transition shadow-xl flex items-center justify-center">
+            <i data-lucide="check-circle" class="w-4 h-4 mr-1.5 text-sigan-gold"></i>
+            <span data-editable>VIP 관심고객 등록 & 상담신청 완료하기</span>
+          </button>
+
+          <p class="text-center text-[11px] sm:text-xs text-slate-400 break-keep" data-editable>
+            입력하신 개인정보는 암호화되어 안전하게 관리되며, 상가 분양 안내 목적 외에는 사용되지 않습니다.
+          </p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="bg-sigan-greenDeep text-slate-400 text-xs py-10 px-4 sm:px-6 lg:px-8 border-t border-white/10 pb-28 md:pb-10">
+    <div class="max-w-7xl mx-auto space-y-5">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center pb-5 border-b border-white/10 gap-3">
+        <div>
+          <span class="text-xs text-sigan-gold font-bold tracking-wider" data-editable>인천계양 공공주택지구 AC3BL · AC4BL 주상복합 상업시설</span>
+          <p class="text-base font-black text-white mt-0.5" data-editable>상업시설 「시간 (時間)」 공식 분양홍보관</p>
+        </div>
+        <div class="flex flex-wrap gap-3 text-xs text-slate-400">
+          <button onclick="showSection('brand')" class="hover:text-white transition">브랜드스토리</button>
+          <span>|</span>
+          <button onclick="showSection('overview')" class="hover:text-white transition">사업개요</button>
+          <span>|</span>
+          <button onclick="showSection('premium')" class="hover:text-white transition">8대프리미엄</button>
+          <span>|</span>
+          <button onclick="showSection('blocks')" class="hover:text-white transition">MD안내</button>
+          <span>|</span>
+          <button onclick="openPrivacyModal()" class="hover:text-white text-sigan-gold transition underline">개인정보처리방침</button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 leading-relaxed text-xs">
+        <div class="space-y-1">
+          <p><span class="text-slate-300 font-semibold">시공사:</span> <span data-editable>(주)반도건설</span> | <span class="text-slate-300 font-semibold">브랜드:</span> <span data-editable>시간(時間) / 카이브(KAIVE)·유보라</span></p>
+          <p><span class="text-slate-300 font-semibold">견본주택 위치:</span> <span data-editable>경기도 부천시 원미구 도당동 222-46 (홍보관: 서울 양천구 신월동 537-1 외)</span></p>
+          <p><span class="text-slate-300 font-semibold">사업지 위치:</span> <span data-editable>인천광역시 계양구 동양동 458-3번지(AC3BL) / 동양동 420-3번지(AC4BL) 일원</span></p>
+          <p><span class="text-slate-300 font-semibold">대표 분양문의:</span> <span class="text-sigan-gold font-bold">1800-0320</span></p>
+        </div>
+        <div class="space-y-1 text-slate-400">
+          <p data-editable>
+            [법적 면책 고지안내]<br>
+            본 웹사이트에 수록된 투시도, 조감도, 배치도, MD구성(안), 개발계획 등은 소비자의 이해를 돕기 위해 작성된 것으로 향후 인·허가 및 설계 변경 과정에서 실제 시공과 다소 차이가 있을 수 있습니다.
+          </p>
+        </div>
+      </div>
+
+      <div class="pt-3 border-t border-white/5 text-xs text-slate-500 text-center">
+        © 2026 (주)반도건설 인천계양 상업시설 「시간」 All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ==================== MOBILE STICKY BOTTOM BAR ==================== -->
+  <aside aria-label="모바일 빠른 예약 및 상담" class="lg:hidden fixed bottom-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-lg border-t border-slate-200 px-3 py-2.5 shadow-[0_-4px_20px_rgba(0,0,0,0.15)]">
+    <div class="grid grid-cols-2 gap-2">
+      <a href="tel:1800-0320" class="flex items-center justify-center py-2.5 rounded-lg bg-slate-100 border border-slate-300 text-slate-900 font-bold text-xs active:scale-95 transition">
+        <i data-lucide="phone-call" class="w-4 h-4 mr-1 text-sigan-green"></i>
+        <span>1800-0320</span>
+      </a>
+      <a href="#sec-inquiry" class="flex items-center justify-center py-2.5 rounded-lg bg-sigan-green text-white font-bold text-xs active:scale-95 transition shadow-md">
+        <i data-lucide="calendar" class="w-4 h-4 mr-1 text-sigan-gold"></i>
+        <span>VIP 방문예약</span>
+      </a>
+    </div>
+  </aside>
+
+
+  <!-- ==================== SUCCESS MODAL ==================== -->
+  <div id="successModal" class="fixed inset-0 z-50 hidden bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-sm w-full p-6 text-center space-y-4 shadow-2xl animate-[fadeIn_0.2s_ease-out]">
+      <div class="w-14 h-14 bg-emerald-100 rounded-full flex items-center justify-center mx-auto text-sigan-green">
+        <i data-lucide="check" class="w-8 h-8"></i>
+      </div>
+      <div>
+        <h3 class="text-lg font-black text-slate-900">상담 신청 접수 완료</h3>
+        <p id="successMessage" class="text-xs text-slate-600 mt-2 leading-relaxed">
+          고객님의 상담 접수가 정상적으로 완료되었습니다.<br>
+          전문 상담사가 빠른 시간 내에 연락드립니다.
+        </p>
+      </div>
+      <button onclick="closeSuccessModal()" class="w-full py-3 rounded-xl bg-sigan-green text-white font-bold text-xs hover:bg-sigan-greenLight transition">
+        확인
+      </button>
+    </div>
+  </div>
+
+
+  <!-- ==================== PRIVACY MODAL ==================== -->
+  <div id="privacyModal" class="fixed inset-0 z-50 hidden bg-black/70 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-white rounded-3xl max-w-lg w-full p-6 text-slate-900 space-y-4 shadow-2xl max-h-[80vh] overflow-y-auto">
+      <div class="flex justify-between items-center pb-3 border-b border-slate-200">
+        <h3 class="font-bold text-base">개인정보 처리방침 안내</h3>
+        <button onclick="closePrivacyModal()" class="text-slate-400 hover:text-slate-600">
+          <i data-lucide="x" class="w-5 h-5"></i>
+        </button>
+      </div>
+      <div class="text-xs text-slate-600 space-y-2 leading-relaxed">
+        <p><strong>1. 수집하는 개인정보 항목:</strong> 성명, 연락처(휴대폰 번호), 관심구분, 문의내용</p>
+        <p><strong>2. 수집 및 이용 목적:</strong> 인천계양 상업시설 「시간」 분양 상담, 호실 배치도 및 분양가 자료 제공, 견본주택 방문예약 확인</p>
+        <p><strong>3. 보유 및 이용 기간:</strong> 분양 완료 시 또는 고객의 개인정보 삭제 요청 시까지 지체 없이 파기합니다.</p>
+        <p><strong>4. 동의 거부 권리:</strong> 개인정보 수집에 동의를 거부할 권리가 있으며, 동의 거부 시 분양 상담 및 예약 서비스 제공이 제한될 수 있습니다.</p>
+      </div>
+      <button onclick="closePrivacyModal()" class="w-full py-3 rounded-xl bg-slate-100 text-slate-800 font-bold text-xs hover:bg-slate-200 transition">
+        닫기
+      </button>
+    </div>
+  </div>
+
+
+  <!-- ==================== JAVASCRIPT ==================== -->
+  <script>
+    lucide.createIcons();
+
+    // Section Switching (SPA Tab Navigation)
+    const sectionIds = ['overview', 'premium', 'rarity', 'blocks', 'location', 'inquiry'];
+    const sectionNames = {
+      'all': '전체 한눈에 보기',
+      'overview': '1. 사업개요 (규모 및 면적표)',
+      'premium': '2. 공식 8대 프리미엄 (PREMIUM 8)',
+      'rarity': '3. 상업용지 0.91% 희소가치 비교',
+      'blocks': '4. 3블록·4블록 층별 MD 구성',
+      'location': '5. 입지환경 및 오시는 길',
+      'inquiry': '6. VIP 방문예약 및 상담신청'
+    };
+
+    function showSection(target) {
+      document.querySelectorAll('.nav-tab-btn').forEach(btn => btn.classList.remove('is-active'));
+      const activeBtn = document.getElementById(`navBtn-${target}`);
+      if (activeBtn) activeBtn.classList.add('is-active');
+
+      const indicator = document.getElementById('sectionIndicatorBar');
+      const indicatorText = document.getElementById('currentSectionName');
+      const hero = document.getElementById('sec-hero');
+
+      if (target === 'all') {
+        if (hero) hero.classList.remove('hidden');
+        sectionIds.forEach(id => {
+          const el = document.getElementById(`sec-${id}`);
+          if (el) el.classList.remove('hidden');
+        });
+        indicator.classList.add('hidden');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } else {
+        if (hero) hero.classList.add('hidden');
+        sectionIds.forEach(id => {
+          const el = document.getElementById(`sec-${id}`);
+          if (!el) return;
+          if (id === target) {
+            el.classList.remove('hidden');
+          } else {
+            el.classList.add('hidden');
+          }
+        });
+        indicator.classList.remove('hidden');
+        indicatorText.innerText = sectionNames[target] || target;
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    }
+
+    function openMobilePreviewModal() {
+      const modal = document.getElementById('mobilePreviewModal');
+      const iframe = document.getElementById('mobilePreviewFrame');
+      iframe.src = window.location.href;
+      modal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeMobilePreviewModal() {
+      document.getElementById('mobilePreviewModal').classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    function toggleMobileMenu() {
+      document.getElementById('mobileMenu').classList.toggle('hidden');
+    }
+    document.getElementById('mobileMenuBtn').addEventListener('click', toggleMobileMenu);
+
+    function switchBlock(blockId) {
+      document.querySelectorAll('.block-content').forEach(el => el.classList.add('hidden'));
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.remove('bg-sigan-green', 'text-white', 'shadow-sm');
+        btn.classList.add('text-slate-600');
+      });
+
+      const targetContent = document.getElementById(`content-${blockId}`);
+      const targetBtn = document.getElementById(`tabBtn-${blockId}`);
+      if (targetContent) targetContent.classList.remove('hidden');
+      if (targetBtn) {
+        targetBtn.classList.add('bg-sigan-green', 'text-white', 'shadow-sm');
+        targetBtn.classList.remove('text-slate-600');
+      }
+    }
+
+    function openPrivacyModal() { document.getElementById('privacyModal').classList.remove('hidden'); }
+    function closePrivacyModal() { document.getElementById('privacyModal').classList.add('hidden'); }
+    function openSuccessModal(name, phone) {
+      document.getElementById('successMessage').innerHTML = `<strong class="text-sigan-green">${name}</strong> 고객님, 상담 접수가 완료되었습니다.<br>입력하신 연락처(${phone})로 담당자가 상가 배치도 및 분양가 안내자료를 전송해 드립니다.`;
+      document.getElementById('successModal').classList.remove('hidden');
+    }
+    function closeSuccessModal() { document.getElementById('successModal').classList.add('hidden'); }
+
+    function copyAddress(address) {
+      navigator.clipboard.writeText(address).then(() => {
+        alert('주소가 복사되었습니다: ' + address);
+      }).catch(() => {
+        prompt('아래 주소를 복사하세요:', address);
+      });
+    }
+
+    // Map Zoom Modal Controls
+    function openMapZoomModal(imgSrc) {
+      document.getElementById('zoomModalImg').src = imgSrc;
+      document.getElementById('mapZoomModal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+      lucide.createIcons();
+    }
+    function closeMapZoomModal() {
+      document.getElementById('mapZoomModal').classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    // Forms - Google Sheet Live Integration
+    const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbx9uxIMwjCLJk_JwQ9fnHKLL_WEd4xImMnF0uWwmHAgcVtkot7qZOyLWBo3J-4H6jjZ/exec';
+
+    async function sendToGoogleSheet(payload, submitBtn, originalBtnHtml) {
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.classList.add('opacity-75', 'cursor-not-allowed');
+        submitBtn.innerHTML = '<span class="inline-block animate-spin mr-2">⏳</span><span>신청서 전송 중...</span>';
+      }
+
+      try {
+        await fetch(GOOGLE_SCRIPT_URL, {
+          method: 'POST',
+          mode: 'no-cors',
+          headers: {
+            'Content-Type': 'text/plain;charset=utf-8'
+          },
+          body: JSON.stringify(payload)
+        });
+        return true;
+      } catch (err) {
+        console.error('구글 시트 전송 오류:', err);
+        return false;
+      } finally {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.classList.remove('opacity-75', 'cursor-not-allowed');
+          submitBtn.innerHTML = originalBtnHtml;
+        }
+      }
+    }
+
+    async function handleQuickSubmit(e) {
+      e.preventDefault();
+      if (isEditing) return;
+      const form = e.target;
+      const submitBtn = form.querySelector('button[type="submit"]');
+      const originalHtml = submitBtn ? submitBtn.innerHTML : '';
+
+      const name = form.userName.value.trim();
+      const phone = form.userPhone.value.trim();
+
+      const payload = {
+        name: name,
+        phone: phone,
+        block: '상단 빠른신청 (종합상담)',
+        memo: '메인 상단 간편조회 폼 접수',
+        formType: '상단 퀵 폼'
+      };
+
+      await sendToGoogleSheet(payload, submitBtn, originalHtml);
+      openSuccessModal(name, phone);
+      form.reset();
+    }
+
+    async function handleMainSubmit(e) {
+      e.preventDefault();
+      if (isEditing) return;
+      const form = e.target;
+      const submitBtn = form.querySelector('button[type="submit"]');
+      const originalHtml = submitBtn ? submitBtn.innerHTML : '';
+
+      const name = document.getElementById('mainName').value.trim();
+      const phone = document.getElementById('mainPhone').value.trim();
+      const block = document.getElementById('mainBlock').value;
+      const memo = document.getElementById('mainMemo').value.trim();
+
+      const payload = {
+        name: name,
+        phone: phone,
+        block: block,
+        memo: memo,
+        formType: '하단 VIP 상담 폼'
+      };
+
+      await sendToGoogleSheet(payload, submitBtn, originalHtml);
+      openSuccessModal(name, phone);
+      form.reset();
+    }
+
+
+    /* =========================================================
+       WIX-STYLE LIVE VISUAL EDITOR & UNIVERSAL IMAGE STUDIO
+       ========================================================= */
+    let isEditing = false;
+    let activeImage = null;
+    let newImageBase64 = null;
+
+    function toggleWixEditMode() {
+      isEditing = !isEditing;
+      const body = document.body;
+      const dot = document.getElementById('editStatusDot');
+      const statusText = document.getElementById('editStatusText');
+      const toggleBtnText = document.getElementById('toggleBtnText');
+      const actionBtns = document.getElementById('editorActionBtns');
+
+      if (isEditing) {
+        body.classList.add('is-editing');
+        dot.classList.remove('bg-slate-500');
+        dot.classList.add('bg-emerald-400', 'animate-pulse');
+        statusText.innerText = 'Wix 편집 중';
+        statusText.classList.add('text-emerald-400');
+        toggleBtnText.innerText = '편집 완료';
+        actionBtns.classList.remove('hidden');
+
+        document.querySelectorAll('[data-editable]').forEach(el => {
+          el.contentEditable = 'true';
+          el.spellcheck = false;
+        });
+
+        attachUniversalImageListeners();
+        alert('Wix 편집 모드가 켜졌습니다!\n\n1. 텍스트를 클릭하면 즉시 타이핑하여 수정할 수 있습니다.\n2. 사진을 클릭하면 크기, 비율, 모양을 조절하는 [Image Studio]가 열립니다.\n3. 상단 [➕ 새 이미지 추가] 버튼으로 원하는 섹션에 사진을 넣을 수 있습니다.');
+      } else {
+        body.classList.remove('is-editing');
+        dot.classList.remove('bg-emerald-400', 'animate-pulse');
+        dot.classList.add('bg-slate-500');
+        statusText.innerText = '보기 모드';
+        statusText.classList.remove('text-emerald-400');
+        toggleBtnText.innerText = 'Wix 편집 켜기';
+        actionBtns.classList.add('hidden');
+        closeImageStudio();
+
+        document.querySelectorAll('[data-editable]').forEach(el => {
+          el.contentEditable = 'false';
+        });
+
+        if (activeImage) {
+          activeImage.classList.remove('is-active-img');
+          activeImage = null;
+        }
+      }
+    }
+
+    function attachUniversalImageListeners() {
+      document.querySelectorAll('img').forEach(img => {
+        img.onclick = (e) => {
+          if (!isEditing) return;
+          e.preventDefault();
+          e.stopPropagation();
+          selectImageForEditing(img);
+        };
+      });
+    }
+
+    function selectImageForEditing(img) {
+      if (activeImage) {
+        activeImage.classList.remove('is-active-img');
+      }
+      activeImage = img;
+      activeImage.classList.add('is-active-img');
+
+      const panel = document.getElementById('imageStudioPanel');
+      panel.classList.remove('hidden');
+
+      const currentWidth = img.style.width || '100%';
+      let widthNum = 100;
+      if (currentWidth.includes('%')) {
+        widthNum = parseInt(currentWidth);
+      }
+      document.getElementById('sliderWidth').value = widthNum;
+      document.getElementById('labelWidthVal').innerText = currentWidth;
+      
+      lucide.createIcons();
+    }
+
+    function closeImageStudio() {
+      const panel = document.getElementById('imageStudioPanel');
+      panel.classList.add('hidden');
+      if (activeImage) {
+        activeImage.classList.remove('is-active-img');
+        activeImage = null;
+      }
+    }
+
+    function triggerReplaceImage() {
+      if (!activeImage) return;
+      document.getElementById('imageReplaceUploader').click();
+    }
+
+    function handleReplaceImageSelected(e) {
+      const file = e.target.files[0];
+      if (!file || !activeImage) return;
+
+      const reader = new FileReader();
+      reader.onload = function(evt) {
+        activeImage.src = evt.target.result;
+        alert('사진이 성공적으로 교체되었습니다! [수정본 파일 저장]을 누르면 반영됩니다.');
+      };
+      reader.readAsDataURL(file);
+      e.target.value = '';
+    }
+
+    function deleteActiveImage() {
+      if (!activeImage) return;
+      if (activeImage.id === 'mapImage' || activeImage.src.includes('logo.png')) {
+        if (!confirm('이 이미지는 필수 구성 이미지입니다. 정말 삭제하시겠습니까?')) return;
+      } else {
+        if (!confirm('선택하신 이미지를 삭제하시겠습니까?')) return;
+      }
+      
+      const parentCard = activeImage.closest('.user-image-card') || activeImage.parentElement;
+      if (parentCard && parentCard.classList.contains('user-image-card')) {
+        parentCard.remove();
+      } else {
+        activeImage.remove();
+      }
+      closeImageStudio();
+    }
+
+    function applyImageWidth(val) {
+      if (!activeImage) return;
+      activeImage.style.width = val + '%';
+      document.getElementById('labelWidthVal').innerText = val + '%';
+    }
+
+    function applyImageWidthPreset(preset) {
+      if (!activeImage) return;
+      if (preset === 'auto') {
+        activeImage.style.width = 'auto';
+        document.getElementById('labelWidthVal').innerText = '원본';
+      } else {
+        activeImage.style.width = preset;
+        document.getElementById('sliderWidth').value = parseInt(preset);
+        document.getElementById('labelWidthVal').innerText = preset;
+      }
+    }
+
+    function applyImageRatio(ratio) {
+      if (!activeImage) return;
+      if (ratio === 'auto') {
+        activeImage.style.aspectRatio = 'auto';
+        activeImage.style.height = 'auto';
+        activeImage.style.objectFit = 'contain';
+        document.getElementById('labelHeightVal').innerText = '원본 비율';
+      } else {
+        activeImage.style.aspectRatio = ratio;
+        activeImage.style.height = 'auto';
+        activeImage.style.objectFit = 'cover';
+        document.getElementById('labelHeightVal').innerText = ratio;
+      }
+    }
+
+    function applyImageHeight(val) {
+      if (!activeImage) return;
+      activeImage.style.aspectRatio = 'auto';
+      activeImage.style.height = val + 'px';
+      activeImage.style.objectFit = 'cover';
+      document.getElementById('labelHeightVal').innerText = val + 'px';
+    }
+
+    function applyImageShape(shape) {
+      if (!activeImage) return;
+      activeImage.classList.remove('rounded-none', 'rounded-xl', 'rounded-2xl', 'rounded-3xl', 'rounded-full');
+      if (shape === 'none') {
+        activeImage.style.borderRadius = '0px';
+      } else if (shape === 'rounded-xl') {
+        activeImage.style.borderRadius = '12px';
+      } else if (shape === 'rounded-3xl') {
+        activeImage.style.borderRadius = '24px';
+      } else if (shape === 'rounded-full') {
+        activeImage.style.borderRadius = '9999px';
+      }
+    }
+
+    function applyImageBorder(type) {
+      if (!activeImage) return;
+      if (type === 'none') {
+        activeImage.style.border = 'none';
+      } else if (type === 'slate') {
+        activeImage.style.border = '2px solid #cbd5e1';
+      } else if (type === 'gold') {
+        activeImage.style.border = '3px solid #c59b6d';
+      } else if (type === 'green') {
+        activeImage.style.border = '3px solid #0c2f24';
+      }
+    }
+
+    function applyImageAlign(align) {
+      if (!activeImage) return;
+      activeImage.style.display = 'block';
+      if (align === 'center') {
+        activeImage.style.marginLeft = 'auto';
+        activeImage.style.marginRight = 'auto';
+      } else if (align === 'left') {
+        activeImage.style.marginLeft = '0';
+        activeImage.style.marginRight = 'auto';
+      } else if (align === 'right') {
+        activeImage.style.marginLeft = 'auto';
+        activeImage.style.marginRight = '0';
+      }
+    }
+
+    // ================= ADD NEW IMAGE TOOL ================= //
+    function openAddImageModal(targetSection) {
+      if (!isEditing) {
+        toggleWixEditMode();
+      }
+      if (targetSection) {
+        const select = document.getElementById('newImageTargetSection');
+        if (select) select.value = targetSection;
+      }
+      newImageBase64 = null;
+      document.getElementById('newImageFileName').innerText = '';
+      document.getElementById('newImageCaption').value = '';
+      document.getElementById('addImageModal').classList.remove('hidden');
+      lucide.createIcons();
+    }
+
+    function closeAddImageModal() {
+      document.getElementById('addImageModal').classList.add('hidden');
+    }
+
+    function handleAddImageFileSelected(e) {
+      const file = e.target.files[0];
+      if (!file) return;
+
+      const reader = new FileReader();
+      reader.onload = function(evt) {
+        newImageBase64 = evt.target.result;
+        document.getElementById('newImageFileName').innerText = '✓ 파일 준비됨: ' + file.name;
+      };
+      reader.readAsDataURL(file);
+      e.target.value = '';
+    }
+
+    function promptForImageUrl() {
+      const url = prompt('추가하실 이미지의 인터넷 주소(URL)를 입력하세요:', 'https://images.unsplash.com/photo-1541888946425-d0fbb18615f3?auto=format&fit=crop&w=1200&q=80');
+      if (url && url.trim()) {
+        newImageBase64 = url.trim();
+        document.getElementById('newImageFileName').innerText = '✓ URL 연결됨: ' + url.substring(0, 35) + '...';
+      }
+    }
+
+    function confirmAddNewImage() {
+      if (!newImageBase64) {
+        alert('먼저 내 PC에서 사진을 선택하거나 이미지 URL을 입력해 주세요.');
+        return;
+      }
+
+      const sectionId = document.getElementById('newImageTargetSection').value;
+      const container = document.getElementById(sectionId);
+      if (!container) {
+        alert('선택하신 섹션 컨테이너를 찾을 수 없습니다.');
+        return;
+      }
+
+      const caption = document.getElementById('newImageCaption').value.trim() || '사진 설명 입력';
+      const sizeRadio = document.querySelector('input[name="initSize"]:checked');
+      const initSize = sizeRadio ? sizeRadio.value : '100%';
+
+      const card = document.createElement('div');
+      card.className = 'user-image-card relative rounded-3xl overflow-hidden border border-slate-200 shadow-sm bg-slate-100 group transition hover:shadow-md';
+      card.innerHTML = `
+        <img 
+          src="${newImageBase64}" 
+          alt="${caption}" 
+          style="width: ${initSize}; margin: 0 auto; display: block; border-radius: 16px; object-fit: cover;" 
+          class="h-64 sm:h-80" 
+        />
+        <div class="p-4 bg-white flex justify-between items-center border-t border-slate-100">
+          <span class="text-xs sm:text-sm font-bold text-slate-800" data-editable>${caption}</span>
+          <button onclick="this.closest('.user-image-card').remove()" class="text-xs bg-rose-50 text-rose-600 px-2.5 py-1 rounded-lg font-semibold hover:bg-rose-100">
+            삭제
+          </button>
+        </div>
+      `;
+
+      container.appendChild(card);
+      closeAddImageModal();
+
+      card.querySelectorAll('[data-editable]').forEach(el => {
+        el.contentEditable = 'true';
+        el.spellcheck = false;
+      });
+      const newImg = card.querySelector('img');
+      newImg.onclick = (e) => {
+        if (!isEditing) return;
+        e.preventDefault();
+        e.stopPropagation();
+        selectImageForEditing(newImg);
+      };
+
+      selectImageForEditing(newImg);
+      alert('새 이미지가 성공적으로 추가되었습니다!\n\n하단의 [Image Studio]에서 원하는 크기와 모양으로 바로 조절하실 수 있습니다.');
+    }
+
+    function downloadEditedHtml() {
+      const wasEditing = isEditing;
+      if (wasEditing) toggleWixEditMode();
+
+      showSection('all');
+
+      const htmlContent = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+      const blob = new Blob([htmlContent], { type: 'text/html;charset=utf-8' });
+      const link = document.createElement('a');
+      link.href = URL.createObjectURL(blob);
+      link.download = 'index.html';
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      URL.revokeObjectURL(link.href);
+
+      alert('수정하신 최종 index.html 파일이 다운로드 폴더에 안전하게 저장되었습니다!');
+      if (wasEditing) toggleWixEditMode();
+    }
+
+    function resetToOriginal() {
+      if (confirm('모든 수정을 취소하고 원래대로 새로고침하시겠습니까?')) {
+        location.reload();
+      }
+    }
+  </script>
+
+</body>
+</html>
